@@ -1,0 +1,1014 @@
+name,rasa,virya,vipaka,aggravates_dosha,pacifies_dosha,region,season
+Hot tea (Garam Chai),rasa,pungent,heating,aggravates_ Pitta,pacifies_ Vata,abdomen,winter
+Instant coffee,Rasa,Bitter,Pungent,Vata,Pitta,Central Nervous System,All Seasons
+Espreso coffee,bitter,hot,pungent,vata++,kapha--,digestive,autumn-winter
+Iced tea,,,,,,,
+Raw mango drink (Aam panna),sweet,cooling,sweet,Pitta,Kapha,Digestive,Summer
+Fruit Punch (with fresh juices),rasa,Madhura,Katu,Prakriti Shamak,Kapha Prakriti Vridhak,Rasayana,All Seasons
+Fruit Punch (with squashes),,,,,,,
+Lemonade,sweet,cooling,sour,Pitta,Kapha,Oral cavity,Summer
+Lem-o-gin,Katu,Tikta,Madhura,Pitta,Kapha,Abdomen,Autumn
+Cumin infused water (Jeere/Zeere ka pani),rasa,Katu,Vipak,Aggravates Kapha,Pacifies Kapha,Abdomen,Summer
+Coco pine cooler,,,,,,,
+Summer cooler,Rasa,Katu,Madhura,Pitta,Kapha,Sharira,Grishma
+Hot cocoa,sweet,heating,sweet,vata+ Pitta++,Kapha-,central,winter
+Cold coffee with ice cream,Rasa: Tikta (Bitter),Virya: Shita (Cooling),Vipaka: Madhura (Sweet),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Head,season: Winter
+Banana milkshake (Kele milkshake),Sweet,cooling,sweet,increases Kapha,decreases Pitta,stomach,summer
+Mango milkshake (Aam milkshake),sweet,cooling,sweet,increases Pitta,decreases Vata and Kapha,Digestive,Summer
+Pineapple milkshake (Ananas milkshake),sweet,heating,sweet,aggravates_Kapha,pacifies_Vata,digestive,summer
+Orange milkshake (Narangi milkshake),sweet,heating,sweet,Pitta,Kapha,Digestive,Summer
+Egg nog,Sweet,Heating,Pungent,Vata+Pitta++,Kapha-,Chest,Winter
+Sweet Lassi (Meethi lassi),Sweet Lassi (Meethi lassi): sweet,cooling,sweet,increases Kapha,decreases Pitta,Abdomen,Summer
+Lassi (salted),,,,,,,
+Cheese and chilli sandwich ,rasa,tikta,katu,Vata+Pitta++Kapha-,Pitta-,Lung,Autumn
+Egg sandwich (Ande ka sandwich),,,,,,,
+Cucumber sandwich (Kheere ka sandwich),rasa,Madhura (sweet),Sheeta (cooling),Aggravates - Kapha,Pacifies - Pitta,Region - Stomach,Season - All Seasons
+Cheese and pineapple sandwich (Cheese aur ananas ka sandwich),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,antarang,ritu (harit-kesar)
+Cheese and tomato sandwich (Cheese aur tamatar ke sandwich),,,,,,,
+Chicken sandwich,rasa,Katu,Vipak,Aggravates_Kapha,Pacifies_Vata,Head,Summer
+Peanut and tomato sandwich (Moongfali aur tamatar ka sandwich),,,,,,,
+Rainbow sandwich,rasa,madhura,vipakasweet,aggravates_kapha,pacifies_vata,abdomen,all_seasons
+Club sandwich ,sweet,hot,sour,Vata&Kapha,Pitta,Lungs,Summer
+Vegetarian club sandwich,sweet,mild,sweet,Vata+Pitta++,Kapha-,Lung,Summer
+Pin wheel sandwich,,,,,,,
+Carrot apple sandwich (Gajar aur seb ka sandwich),,,,,,,
+Salami sandwich,salt,katu,madhura,vata+kapha,pitta-,stomach,autumn-winter
+Vegetable and mayonnaise sandwich,rasa,tikta,madhura,ajnana,kapha,sarira,all_seasons
+Egg and tomato sandwich (Ande aur tamatar ka sandwich),,,,,,,
+Sweet open sandwich,sweet,susku,madhur,kapha,Pitta,Urdhvaanga,All Seasons
+Mushroom and cheese sandwich (toasted),,,,,,,
+Cheese and tomato sandwich (toasted) (Cheese aur tamatar ke sandwich (toasted)),,,,,,,
+Pea potato sandwich (toasted) (Matar aloo ka sandwich),rasa,Madhura,tikta,aggravates_Kapha,pacifies_Vata,Digestive,Winter
+Paneer pea sandwich (toasted) (Paneer matar ka sandwich),,,,,,,
+Chicken sandwich (toasted),,,,,,,
+Pea keema sandwich (toasted) (Matar aur keema ka sandwich),rasa,Katu,Viruddhak,Vata+Pitta++,Kapha-,Stomach,Winter
+Classic club sandwich,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,throat,all_years
+Sesame toast,rasa,tikta (bitter),ushna (heating),aggravates_kapha,pacifies_vata,head,autumn
+Cracked wheat porridge (Meetha daliya),Sweet,Cooling,Sweet,Vata&Kapha,Pitta,Digestive,Winter
+Semolina porridge (Suji/Rava daliya),rasa,Tikta (Bitter),Sheeta (Cold),aggravates_Kapha,pacifies_Vata,stomach,winter
+Oatmeal Porridge,sweet,cooling,sweet,Vata&Kapha,Pitta,Digestive,Winter
+Cornflakes with milk,,,,,,,
+Rice flakes (Chiwda/Aval),sweet,heating,sweet,vata,pacifies kapha,head & chest,summer
+Wheat flakes,sweet,heavy,sweet,Vata+Pitta++,Kapha-,Head/neck,Winter
+Murmura (Puffed rice),rasa,Vitatapana,Katu,Vata,Pitta,Head,Summer
+Puffed wheat (Murmure/Moori),rasa,Katu (Pungent),Ushna (Heating),Vata,Pitta,Head & Neck,Winter
+Boiled egg (Ubla anda),rasa,tikta,katu,vata,kapha,pratisara,grishma
+Fried Egg ,Katu,Ushna,Madhura,Pitta,Kapha,Abdomen,All Seasons
+Poached egg,,,,,,,
+Scrambled egg (Ande ki bhurji),rasa,Katu (Pungent),Usna (Warming),Vata,Pitta,Stomach,Spring
+Baked egg ,sweet,heating,pungent,aggravates Vata & Kapha,pacifies Kapha,Digestive System,Summer
+Plain omelette/omlet,,,,,,,
+Stuffed egg omelette/omlet,rasa,Katu,Viruddhak,Vata+Pitta++,Kapha-,Chest,Winter
+Pancake,sweet,heating,sweet,aggravates_Pitta,pacifies_Kapha,stomach,all_seasons
+Keema pancake,raja,tikta,madhura,vata,pitta,mukha,rainy_season
+Vegetable pancake,sweet,heating,sweet,Vata+Pitta++,Kapha-,stomach,all seasons
+Jam and fruit pancake,sweet,heating,sweet,Vata&Pitta,Kapha,digestive,autumn
+Khoa and coconut pancake,,,,,,,
+Brown stock,Sweet,heating,sweet,aggravates Vata and Kapha,pacifies Pitta,Head,Winter
+Vegetable stock,Rasa: Madhura (Sweet),Virya: Sheet (Cold),Vipaka: Madhura (Sweet),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Sarva (All),season: Heman (Winter)
+Chicken stock,,,,,,,
+Clear tomato soup (Tamatar ka soup),rasa,Katu,Madhura,Vata,Pitta,Urdhvaanga,Autumn
+Lentil soup,sweet,cooling,sweet,Vata,Pitta,Digestive,Winter
+Chicken consomme (Clear chicken soup),rasa,Katu,Vipak,Aggravates - Kapha,Pacifies - Pitta,Head,Winter
+Cream of tomato soup,sweet,heating,sweet,pitta,kapha,digestive,winter
+Cream of green peas soup,sweet,cooling,sweet,Vata+Pitta++,Kapha-,Upper body,Winter
+Cream of spinach soup,sweet,heating,sweet,Vata+Pitta++,Kapha-,Lung,Winter
+Cream of mixed vegetable soup,,,,,,,
+Cream of mushroom soup,sweet,heavy,sweet,vata+,kapha-,head,winter
+Chicken sweet corn soup,,,,,,,
+Minestrone soup,sweet,heating,sweet,Vata+Kapha,Pitta-,Upper,Autumn-Winter
+Egg drop soup,rasa,Katu,Vipak,Aggravates-Vata,Pacifies-Kapha,Abdomen,Winter
+Chinese cabbage and meat ball soup,Rasa,Kashaya,Amla,Vata++,Kapha+,Head,Winter
+French onion soup,Roktas,Tikshna,Katu,Pitta,Kapha,Urdhvaang,Winter
+Hot and sour soup,sharp,pungent,sour,aggravates_ Pitta,pacifies_ Kapha,head,autumn
+Talaumein soup,sweet,cooling,sweet,Vata,Pitta,digestive,winter
+Cold cucumber soup (Thanda kheere ka soup),rasa,cooling,sweet,pitta,kapha,head,summer
+Cold summer garden soup,,,,,,,
+Chapati/Roti,rasa,Tikta,Katu,Vata,Pitta,Raktamadhya,Ritukala
+Plain parantha/paratha,,,,,,,
+Potato parantha/paratha (Aloo ka parantha/paratha),rasa,Katu,Vipak,Aggravates-Kapha,Pacifies-Vata,Abdomen,Cold season
+Radish parantha/paratha (Mooli ka parantha/paratha),,,,,,,
+Cauliflower parantha/paratha (Phoolgobhi ka parantha/paratha),rasa,Tikta (Bitter),Sheeta (Cold),Aggravates - Kapha,Pacifies - Pitta,Stomach,Winter
+Dal parantha/paratha,Rasa: Madhura (Sweet),Virya: Sheeta (Cold),Vipaka: Madhura (Sweet),aggravates_dosha: Kapha,pacifies_dosha: Vata,region: Stomach,season: Winter
+Sprouted moong parantha/paratha,sweet,heating,sweet,vata,pitta,digestive,summer
+Pea parantha/paratha (Matar ka parantha/paratha),rasa,tikta,madhura,katu,rajas,abdomen,spring
+Keema parantha/paratha,,,,,,,
+Paneer parantha/paratha,rasa,tikta,madhur,katu,rajas,stomach,winter
+Besan and spinach parantha/paratha (Besan aur palak ka parantha/paratha),,,,,,,
+Poori,sweet,heating,sweet,vata&kapha,pitta,digestive,winter
+Spinach poori (Palak poori),,,,,,,
+Methi poori,,,,,,,
+Dal stuffed poori,sweet,heating,sweet,Vata&Kapha,Pitta,digestive system,winter
+Potato stuffed poori (Aloo ki poori),,,,,,,
+Tandoori parantha/paratha,rasa,Tikta,Viruddhah,Kapha,Pitta,Urdhvaanga,Rituka
+Boiled rice (Uble chawal),Sweet,neutral/slightly pungent,sweet,increases Kapha and Vata,decreases Pitta,Abdomen,All seasons
+Plain pulao,rasa,Tikta,Katu,Vata,Pitta,Madya,Grishma
+Mixed vegetable pulao,,,,,,,
+Mushroom pulao,rasa,tikta,madhura,vatakaphapittarak,vata-kapha-hara,abdomen,autumn
+Sprouted moong pulao,,,,,,,
+Paneer pulao,sweet,heavy,sweet,Vata&Kapha,Pitta,Abdomen,Winter
+Peanut pulao ,rasa,tikta,madhura,vatakapha,pittadushta,stomach,winter
+Navratan pulao,,,,,,,
+Green chickpeas pulao (Choliya pulao/Hare chane ka pulao),,,,,,,
+Mutton biryani/biriyani,rasa,Tikta,Katu,Rakta,Pitta,Mamsam,Hot season
+Vegetable biryani/biriyani,,,,,,,
+"Lemon rice (Pulihora, Elumichai sadam, Chitranna)",,,,,,,
+Sweet rice (Meethe chawal),sweet rice,sweet,cooling,none,Kapha,Ayurvedic Digestive,Winter
+Curd rice (Dahi bhaat/Dahi chawal/ Perugu annam/Daddojanam/Thayir saadam),rasa,Madhura,Karshna,Aggravates Kapha,Pacifies Pitta,Abdomen,All Season
+Tamarind rice (Chintapandu pulihora/Puliyodharai/Puli sadam/Huli anna),Sweet,pungent,acidic,aggravates Pitta,pacifies Vata & Kapha,South India,Warm Season
+Spanish rice,,,,,,,
+Chinese fried rice,Rasa,Tikta,Madhura,Vata,Kapha,Abhyanta,Ritu (Monsoon)
+Macroni cheese pie,rasa,Tikta,Vipak,Kapha,Pitta,Urdhvaanga,Winter
+Vegetable chowmein,raktashali,tikta,madhura,Vata,Kapha,Head,Autumn
+Chicken chowmein,rasa,Rajasic,Amla,Aggravates_Vata,Pacifies_Kapha,Head & Stomach,All Season
+Cheese noodle ring,,,,,,,
+Spaghetti and cheese balls in tomato sauce,,,,,,,
+Penne platter,rasa,katu,madhura,Vata,Pitta,Abdomen,Autumn
+Pasta hot pot,pungent,hot,sweet,Vata,Pitta,Digestive tract,Winter
+Chicken lasagne,,,,,,,
+Fettuccine with spinach sauce,,,,,,,
+Naan,sweet,heating,sweet,Vata & Pitta,Kapha,Digestive System,Summer
+Bhatura,sweet,heavy,sweet,Vata+Pitta++,Kapha-,Upper GI,Cold Season
+Idli,sweet,cooling,sweet,vata&kapha,pitta,digestive,winter
+Masala dosa,sarca,tikta,madhura,Vata,Pitta,Abdomen,Winter
+Semolina dosa (Suji/Rava dosa),rasa,Tikta (Bitter),Katu (Pungent),Vatta,Kapha,Agni,Winter
+Onion tomato uttapam,,,,,,,
+Paneer kaathi roll,,,,,,,
+Makki ki roti,sweet,cooling,sweet,increases Kapha,decreases Vata,stomach,winter
+Washed moong dal (Dhuli moong ki dal),sweet,cooling,sweet,increases Kapha,decreases Vata and Pitta,legs,spring and autumn
+Washed urad dal (Dhuli urad ki dal),Sweet,cooling,sweet,Vata & Pitta,Kapha,Legumes,Winter
+Split bengal gram with bottle gourd (Channa dal with ghiya/lauki),rasa,tikta,madhur,katu,rajas,stomach,summer
+Dry washed urad,Raktasva,Katu,Madur,Vaatapitta,Kapha,Grahani,Grishma
+Mixed dal,rasa,tikta,madhura,katu,rajas,all over,winter
+Whole moong (Moong ki dal),Sweet,Cooling,Sweet,Increases Kapha,Decreases Vata and Pitta,Groin,Summer
+Whole masoor (Masoor ki dal),rasa,Tikta (Bitter),Usna (Hot),Aggravates Vata & Pitta,Pacifies Kapha,Gramin,Winter & Summer
+Whole moth (Moth ki dal),,,,,,,
+Whole urad (Urad ki dal),sweet,heavy,sweet,increases Vata & Kapha,decreases Pitta,legumes,winter
+Moti mahal dal (Urad rajmah mix dal),,,,,,,
+Black channa curry/Bengal gram curry (Kale chane ki curry),,,,,,,
+Chickpeas curry (Safed channa curry),rasa,Katu,Madhura,aggravates_Vata,Pacifies_Kapha,Abdomen,Cool
+Lobia curry,,,,,,,
+Soyabean curry,,,,,,,
+Kidney bean curry (Rajmah curry),,,,,,,
+Sambar,rasa,tikta,katu,Vata,Pitta,Rasayana,Autumn
+Besan kadhi with pakodies,,,,,,,
+Khatta channa,khatta channa,Sharabh,Katu,Vata,Pitta,Abdomen,Summer
+Sprouted moong dal chat,rasa,Tikta,Viruddhak,Kapha,Pitta,Urdhvaanga,Grishma
+Potato cauliflower (Aloo gobhi),,,,,,,
+Potato capsicum (Shimla mirch aloo),,,,,,,
+Cabbage and peas (Pattagobhi aur matar),Cabbage (Pattagobhi): Katu,Sheeta,Madhur,Vata,Kapha,Antarang,Sharad-Hemant
+Carrot and fenugreek leaves (Gajar methi),,,,,,,
+Potato fenugreek (Aloo methi),,,,,,,
+Brinjal bhartha (Baingan ka bhartha),rasa,tikta,katu,Vatta,Pitta,Stomach,Autumn
+Dry potato (Sookhe aloo),,,,,,,
+Beans with coconut (Nariyal aur sem/phali; Beans thoran),,,,,,,
+Cauliflower with coconut (Nariyal ke saath phoolgobhi),,,,,,,
+Carrot and cabbage with coconut (Nariyal ke saath pattagobhi aur gajar),,,,,,,
+Raw turnip with coconut ,Rasa: Tikta (Bitter),Virya: Shita (Cooling),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Bhukta-sthana (Stomach),season: Sharad-Hemant (Autumn and Early Winter)
+Raw papaya with coconut (Papaya thoran),Sweet,Pitta increasing,Sweet,Aggravates Vata & Pitta,Pacifies Kapha,Abdomen & Chest,Summer
+Stuffed okra (Bharwa bhindi),,,,,,,
+Stuffed round gourd (Bharwa tinde),,,,,,,
+Stuffed capsicum (Bharwa shimla mirch),,,,,,,
+Stuffed brinjal (Bharwa baingan),sweet,heating,sweet,Pitta,Kapha,Heart,Summer
+Stuffed tomatoes (Bharwa tamatar),rasa,Katu,Madhura,Vata,Pitta,Srotashtaya,Ritu-Grishma
+Pea potato curry (Aloo matar),,,,,,,
+Pea paneer curry (Matar paneer),,,,,,,
+Pea mushroom curry (Matar mushroom),,,,,,,
+Pea curry (Matar ki sabzi),,,,,,,
+Pea vadi curry,,,,,,,
+Paneer curry,sweet,heavy,sweet,Kapha,Pitta,Upper Body,All Season
+Lotus stem curry (Kamal kakdi curry),,,,,,,
+Gravy for kofta,rasa,Tikta,Katu,Vata,Kapha,Rakta,Grishma
+Pea kofta curry (Matar kofta curry),,,,,,,
+Spinach kofta curry (Palak kofta curry),rasa,tikta,katu,kapha,Pitta,Medium,Winter
+Paneer kofta curry,sweet,heating,sweet,Vata & Kapha (aggravates),Pitta (pacifies),Upper body,Winter
+Lotus stem kofta curry (Kamal kakdi kofta curry),rasa,tikta,katu,Kapha,Pitta,Shukla,Ritu
+Raw banana kofta curry (Kela kofta curry),,,,,,,
+Cauliflower kofta curry (Phoolgobhi kofta curry),rasa,tikta,katu,Kapha,Pitta,Shalyakand,Ritu (Autumn)
+Cabbage kofta curry (Pattagobhi kofta curry),,,,,,,
+Ghiya/Lauki Kofta Curry,rasa,madhura,tikta,kapha,Pitta,Balanced,Monsoon
+Spinach paneer kofta curry (Palak paneer kofta curry),,,,,,,
+Vegetarian egg kofta curry,,,,,,,
+Baked vegetables,,,,,,,
+Cauliflower musallam (Phoolgobhi musallam),Rasa: Kapha,Virya: Sheeta (Cold),Vipaka: Madhura (Sweet),Aggravates_Dosha: Kapha,Pacifies_Dosha: Pitta,Region: Head & Chest,Season: Winter
+Baked vegetables with spinach ,,,,,,,
+Baked potato with skin ,sweet,heating,sweet,Vata,Pitta,Stomach,Winter
+Shepherd's pie (vegetarian),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,stomach,winter
+Baked brinjal in tomato sauce,,,,,,,
+Dum aloo,Rasa: Madhura (sweet),Virya: Sheetta (cold),Vipaka: Madhura (sweet),Aggravates_Dosha: Kapha,Pacifies_Dosha: Vata,Region: Root (Dhanya),Season: Winter
+Spinach paneer (Palak paneer),,,,,,,
+Methi chaman,,,,,,,
+Sarson ka saag,,,,,,,
+Jackfruit sabzi (Kathal ki sabzi),sweet,heating,sweet,aggravates Vata and Kapha,pacifies Pitta,tropical,summer
+Avial,rasa,madhura,vipakasweet,aggravates-kapha,pacifies-vata,southindia,summer
+Al yakhani,sweet,heating,sweet,Pitta,Kapha,Heart,Summer
+Shahi paneer,Sweet,heating,sweet,Vata & Kapha (aggravates),Pitta (pacifies),Abdomen,Winter
+Paneer in butter sauce,sweet,heavy,sweet,Kapha,Pitta,Chest,Winter
+Methi malai paneer,,,,,,,
+Chilli paneer,rajas,usna,katu,pitta,kapha,bhujangara,grishma
+Paneer makhana korma,,,,,,,
+Kadhai Paneer,rasa,tikta,madhura,katu,rajas,Chyavanaprashana,Autumn
+Roghan josh,Rasa,Katu,Madhura,Aggravates Vata & Pitta,Pacifies Kapha,Abdomen & Thorax,Winter & Spring
+Spinach mutton (Palak mutton),,,,,,,
+Pea keema curry (Matar keema ki sabzi),,,,,,,
+Keema kofta curry,rasa,tikta,katu,aggravates_vata_pitta,pacifies_kapha,abdomen,winter
+Kashmiri mutton koftas (Gushtaba),,,,,,,
+Mutton yakhni,,,,,,,
+Chicken yakhni,rasa,tikta,katu,Aggravates_Kapha,Pacifies_Vata,Throat,Winter
+Mutton do piaza,rasa,Tikta,Katu,Aggravates_Vata,Pacifies_Kapha,Head,Cold
+Mutton chops,,,,,,,
+Shammi kebab,,,,,,,
+Scotch egg,,,,,,,
+Shepherd's pie (with minced meat),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,stomach,winter
+Chicken curry,Rasa,Tikta (Bitter),Ushna (Hot),Rakta (Pitta),Kapha,Mahasrotra (Head & Neck),Grishma (Summer)
+Tandoori chicken,,,,,,,
+Butter chicken,sweet,hot,sweet,Pitta+Kapha,Vata,digestive,autumn-winter
+Chicken kebab,,,,,,,
+Chilli chicken,pungent,hot,pungent,aggravates_Pitta,pacifies_Vata,head & heart,autumn
+Fried chicken with tomato sauce (Fried chicken tamatar ki chutney kay saath),,,,,,,
+Fish curry (Machli curry),,,,,,,
+Fried fish (Indian style) (Tali hui machli),,,,,,,
+Fried fish and Chips (English Style) (Tali hui machli aur chips),rasa,tikta,katu,aggravates_vata,pacifies_kapha,Abdomen,Autumn
+Tomato fish,rasa,Tikta (sour-tingling),Usna (heating),Rajas,Pitta,Stomach,Summer
+Baked fish with cheese sauce,,,,,,,
+Fish tikka,,,,,,,
+Tandoori fish,,,,,,,
+"Paneer, apple and pineapple salad",,,,,,,
+Russian salad,,,,,,,
+Pasta salad,,,,,,,
+Deviled egg,sarira,tikta,katu,Vata+Pitta++Kapha-,Pitta-Kapha+Vata-,Abdomen,Summer
+Hawain salad,sarca,katu,madhura,vata,kapha,pratishthana,rainy_season
+Mixed pulse and vegetable salad,rasa,Katu,Vipak,Aggravates Kapha,Pacifies Kapha,Abdomen,All Season
+Sprouted moong salad ,,,,,,,
+Tossed salad,,,,,,,
+Mixed vegetable salad with curd sauce,rasa,Madhura,Katu,Aggravates_Kapha,Pacifies_Vata,Abhyantara,All_Seasons
+Potato salad (Aloo ka salaad),,,,,,,
+Waldroff salad,sarca,katu,madhur,Vatakapha,Pitta,Head,Summer
+Coleslaw,sweet,cooling,sweet,Kapha,Pitta,Head/Neck,Summer
+Fruit salad (Phalon ka salaad),sweet,slightly cooling,sweet,All Doshas,Pitta,Whole body,All seasons
+Tomato onion raita (Tamatar aur pyaaz ka raita),,,,,,,
+Peanut raita (Mungfali ka raita),,,,,,,
+Sprouted moong raita ,sweet,cool,sweet,vata,pitta,digestive,summer
+Bottle gourd raita (Ghiya/Lauki ka raita),rasa,tikta,katu,kapha,Pitta,neutral,monsoon
+Cucumber raita (Kheere ka raita),Katu,Sheet,Madhur,Vata & Pitta,Kapha,Sthana (Stomach),Grishma (Summer)
+Carrot and spinach raita (Gajar aur palak ka raita),,,,,,,
+Mint raita (Pudinay ka raita),,,,,,,
+Potato raita (Aloo ka raita),rasa,Madhura (sweet),sheeta (cold),Vata,Kapha,Stomach,Summer
+Boondi raita,sweet,mild,sweet,vata+,pitta-,abdomen,hot season
+Sweet raita (Meetha raita),Sweet Raita (Meetha raita):sweet,cooling,sweet,increases Kapha,reduces Pitta and Vata,abdomen,summer
+Dahi vadas/Dahi bhalla,,,,,,,
+Gunjia,Rasa,Tikta,Katu,Vata,Pitta,Lungs,Autumn
+Saunth/Sonth chutney with tamarind/imli,,,,,,,
+Rice kheer (Chawal ki kheer),Sweet,cooling,sweet,increases Kapha,decreases Vata,digestive,winter
+Makhana kheer,sweet,heating,sweet,vata,pitta,lungs/heart,autumn
+Vermicelli kheer (Semiya/Seviyan ki kheer),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,abdomen,winter
+Semolina kheer (Suji/Rava kheer),sweet,heating,sweet,Vata & Pitta,Balances Kapha,Abdomen,Winter
+Paneer kheer,sweety,cooling,sweet,Kapha,Balances Pitta & Vata,Abdomen,Winter
+Cabbage kheer (Pattagobhi ki kheer),sweet,cooling,sweet,vata+kapha,pitta-,stomach,winter
+Carrot kheer (Gajar ki kheer),sweet,heating,sweet,vata&kapha,pitta,sweet,winter
+Cauliflower kheer (Phoolgobhi ki kheer),sweet,cooling,sweet,Vata&Kapha,Pitta,Head & Chest,Winter
+Moong dal kheer,sweet,cooling,sweet,vata&kapha,pitta,digestive,winter
+Phirni,sweet,cool,stable,increases Kapha,decreases Vata & Pitta,abdomen,summer
+Semolina halwa (Suji ka halwa),sweet,heating,sweet,Vata&Kapha,Pitta,digestive,winter
+Shahi suji halwa,sweet,heating,sweet,Vata & Pitta,balances Kapha,stomach,winter
+Carrot halwa (Gajar ka halwa),sweet,heating,sweet,Vata,Pitta,sweet,Winter
+Egg halwa (Ande ka halwa),sweet,heating,sweet,Vata&Kapha,Pitta,sweet dishes,winter
+Potato halwa (Aloo ka halwa),sweet,heating,sweet,vata,pitta,stomach,winter
+Pumpkin halwa (Kaddu ka halwa),,,,,,,
+Moong dal halwa,,,,,,,
+Caramel custard (steamed),,,,,,,
+Baked custard,sweet,heating,sweet,Vata & Kapha,Pitta,Abdomen,Winter
+Soft Custard (stirred),Sweet,Slightly Cooling,Sweet,Increases Kapha,Reduces Pitta,Abdomen,Winter
+Chocolate ice cream,sweet,heavy,sweet,Kapha,Vata,Sweet,Winter
+Mango ice cream,sweet,cooling,sweet,vata+,kapha-,summer,summer
+Fruit Ice cream (Phalon ka Ice cream),sweets,cooling,sweet,Vata&Kapha,Pitta,Sweet,Summer
+Caramel ice cream,sweet,cold,sweet,Vata,Kapha,Oral cavity,Summer
+Lemon souffle,sweet,heating,pungent,Pitta,Kapha,Digestive,Spring
+Orange souffle,sweet,heating,sweet,Pitta,Kapha,Digestive,Summer
+Vanilla souffle,sweet,heating,sweet,vata&kapha,pitta,digestive,summer
+Chocolate souffle,sweet,heating,sweet,Vata,Kapha,Sweet,Winter
+Pineapple souffle ,sweet,heating,sweet,aggravates- Pitta,pacifies- Kapha,digestive,summer
+Apple mousse,sweet,cooling,sweet,pitta,kapha,digestive,autumn
+Rich chocolate mousse,Sweet,Heating,Sweet,Kapha,Pitta,Heart,Winter
+Mango mousse,Sweet,cooling,sweet,aggravates Kapha,pacifies Vata and Pitta,Digestive system,Summer
+Orange and pineapple cream,,,,,,,
+Charlotte rousse,sweet,heating,sweet,Pitta,Kapha,Heart,Summer
+Triffle pudding,sweet,heating,sweet,Vata&Kapha+,Pitta-,Central,Winter
+Snow flakes pudding,sweets,cooling,sweet,Vata & Kapha,Pitta,throat,winter
+Kulfi,Sweet,Cooling,Sweet,Increases Kapha,Decreases Pitta,Abdomen,Summer
+Steamed orange pudding,sweet,heating,sweet,Pitta,Kapha,Digestive,Winter
+Meringue and rice pudding,,,,,,,
+Cheese pudding,Sweet,Cooling,Sweet,Vata&Kapha(Aggravates),Pitta(Pacifies),Abdomen,Winter
+Chocolate pudding,sweet,heavy,sweet,Kapha,Vata,Abdomen,Winter
+Bread and butter pudding ,sweet,heating,sweet,Vata+Pitta++,Kapha-,Throat,Winter
+Queen of pudding,,,,,,,
+Pineapple upside down pudding,rasa,tikta,madhur,kapha,pitta,ushee,summer
+Date and nut pie,,,,,,,
+Stewed apple with custard,Sweet,Cooling,Sweet,Increases Kapha,Reduces Pitta,Abdomen,Autumn
+Apple snowballs,Sweet,Cooling,Sweet,Aggravates Kapha,Pacifies Vata & Pitta,Lungs,Autumn
+Hot orange souffle,sweet,heating,sweet,Pitta,Vata,Digestive tract,Winter
+Hot chocolate souffle,rasa,Tikta,Ushna,Vata,Kapha,Atta,Winter
+Hot vanilla souffle,sweet,heating,sweet,vata,pitta,heart,winter
+Plain burfi (Burfi),sweets,sleshak,madhur,Kapha,Pitta,Meda,Winter
+Coconut burfi (Nariyal ki burfi),Sweet,heating,sweet,aggravates Vata and Kapha,pacifies Pitta,Sweet dishes (Madya),Warm season
+Bottle gourd burfi (Ghiya/Lauki burfi),rasa: madhura (sweet),virya: sheeta (cooling),vipaka: madhura (sweet),aggravates_dosha: kapha,pacifies_dosha: pitta,region: all,season: summer
+Chocolate burfi,,,,,,,
+Cashewnut burfi (Kaju burfi/Kaju katli),rasa,tikta,madhura,aggravates_vata,pacifies_kapha,throat,winter
+Gram flour burfi (Besan burfi),,,,,,,
+Semolina ladoo with khoya (Suji/Rava aur khoye ke ladoo ),,,,,,,
+Semolina ladoo with coconut (Suji/Rava aur nariyal ke ladoo ),,,,,,,
+Gram flour ladoo (Besan ladoo),,,,,,,
+Sesame ladoo (Til ke ladoo),Sesame Ladoo (Til ke ladoo): sweet,heavy,sweet,Vata & Kapha,Pitta,head & heart,winter
+Chenna murki,,,,,,,
+Milk cake,sweet,heavy,sweet,increases Kapha,decreases Vata,head & chest,winter
+Ghujia/Lavang latika,rasa,tikta,katu,Vata+Pitta++,Kapha-,Throat,Winter
+Gulab Jamun with khoya,,,,,,,
+Mal pua,sweet,heating,sweet,Vata&Pitta,Kapha,Head & Chest,Autumn
+Shahi tukre,sweet,heating,sweet,aggravates Vata and Kapha,pacifies Kapha,cardiac,winter
+Potato pakora/pakoda (Aloo pakoda),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,stomach,cold season
+Onion pakora/pakoda (Pyaaz ke pakode),,,,,,,
+Cauliflower pakora/pakoda (Phoolgobhi ke pakode),,,,,,,
+Mixed vegetable pakora/pakoda,rasa,tikta,madhura,kapha,pitta,vegetables,all_seasons
+Spinach pakora/pakoda (Palak pakoda),rasa,katu,madhur,aggravates_kapha,pacifies_vata,lung,winter
+Methi pakora/pakoda (Methi ke pakode),,,,,,,
+Egg pakora/pakoda (Ande ke pakode),,,,,,,
+Bread pakora/pakoda,,,,,,,
+Paneer pakora/pakoda,rita,usna,madhura,Kapha,Vata,Stomach,Winter
+Potato bonda (Aloo bonda),,,,,,,
+Potato samosa (Aloo ka samosa),,,,,,,
+Minced meat samosa (Keema ka samosa),,,,,,,
+Paneer and pea samosa (Paneer matar ka samosa),,,,,,,
+Mathri,rasa,Tikta,Katu,Vata,Pitta,Prasara,Grishma
+Khasta kachori,rasa,tikta,katu,vata,kapha,Maha Bhoota (stomach),winter
+Vegetable cutlet,rasa,katu,madhur,Vatakapha,Pittarajakapha,Abhyantara,All_Seasons
+Flattened rice cutlet (Chirwa cutlet/Chivda cutlet/Poha cutlet),rasa,tikta (bitter),ushna (heating),vata,pitta,stomach,all seasons
+Peanut cutlet (Mungfali ke cutlet),,,,,,,
+Fish cutlet (Machli ka cutlet),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,Mamsam,All Season
+Paneer potato cutlet (Paneer aloo cutlet),,,,,,,
+Spinach chickpeas cutlet (Palak channa dal cutlet),,,,,,,
+Cheese toast,rasa,Tikta,Usna,Vata,Kapha,Meda,Rtu-Sarad
+Vegetable burger,,,,,,,
+Cheese pizza,,,,,,,
+Vegetable seekh kebab,,,,,,,
+Masala vada,rasa,tikta,madhura,vatakapha,pitta,uradaya,varsha
+Peanut sago vada (Sabudana mungfali vada),,,,,,,
+Vegeterian scotch egg,rasa,tikta,katu,Vata+Pitta++Kapha-,Pitta-Vata--Kapha+,Meat (substitute),Autumn
+Paneer shaslik/tikka,rasa,tikta,katu,Vata+Pitta++Kapha-,Pitta-,Throat,Summer
+Peanut brittle (Moongfali ki chikki),Sweet,Hot,Sweet,Vata&Pitta,Kapha,Digestive,Winter
+Spring roll,rasa,Astringent,cooling,Vata,Pitta,Oral cavity,Spring
+Dry mango chutney (Sookhe aam ki chutney),rasa,Katu,Amla,Aggravates_Vata,Pacifies_Kapha,Digestive,Summer
+Peanut chutney (Mungfali ki chutney),,,,,,,
+Coconut chutney (Nariyal ki chutney),,,,,,,
+Mint and coriander chutney (Pudinay aur dhaniye ki chutney),,,,,,,
+Custard tart,sweet,heating,sweet,Vata&Kapha,Pitta,digestive,autumn-winter
+Lemon tart,sweet,pungent,astringent,Pitta,Kapha,Digestive,Summer
+Jam tart,sweet,heating,sweet,Vata&Kapha,Pitta,head & chest,autumn
+Orange cream tart,Sweet,heating,sweet,Vata & Pitta,Balances Kapha,Digestive,Summer
+Pineapple tart,sweet,heating,sour,aggravates_ Pitta,pacifies_ Kapha,digestive,summer
+Cheese and mushroom tart,rasa: Madhura (sweet),virya: Sheeta (cold),vipaka: Katu (pungent),aggravates_dosha: Kapha,pacifies_dosha: Vata,region: Kandara (stomach),season: Hemsantati (winter)
+Cottage cheese pie,sweet,cooling,sweet,Vata & Kapha,Pitta,Digestive & Upper body,Spring
+Minced meat pie,rasa,Rajasic,Vipak-Madhura,Aggravates-Pitta,Pacifies-Vata,Throat,Winter
+Apple cinnamon pie,sweet,heating,sweet,aggravates-Vata,pacifies-Kapha,digestive,autumn
+Lemon meringue pie,,,,,,,
+Chocolate meringue pie,sweet,heating,sweet,Vata+Pitta++Kapha-,Pitta+Kapha++Vata-,Throat,Winter
+Cream puffs,sweet,heavy,sweet,Vata+Pitta++Kapha-,Pitta-,Throat,Spring-Summer
+Chocolate eclairs,sweet,heating,sweet,Kapha,Pitta,Heart,Winter
+Cheese balls,,,,,,,
+Minced meat patties,rasa,Tikta,Ushna,Rakta,Pitta,Mamsam,All Seasons
+Cheese patties,,,,,,,
+Hot cheese souffle,rasa,Tikta,Ushna,Vata,Kapha,Urdhvaanga,Winter
+Hot potato souffle,rasa,Tikta,Ushna,Vata,Pitta,Mridu,Rtu-Grishma
+Hot fish souffle,rasa,Tikta,Ushna,Aggravates_Vata,Pacifies_Kapha,Head,Winter
+Hot spinach souffle,,,,,,,
+Plain cream cake,sweet,heavy,madhur,Kapha++,Vata--,Sthana (Stomach),Winter
+Apple cake (Seb ka cake),,,,,,,
+Marble cake,sweet,tikta,madhur,Vata,Kapha,Throat,Winter
+Chocolate cake,sweet,heating,sweet,Kapha,Pitta,Sweet,All seasons
+Orange cake,Sweet,heating,sweet,Vata & Pitta,Kapha,Sweet,Summer
+Fruit Loaf ,,,,,,,
+Banana cake (Kele ka cake),sweet,heating,sweet,increases Kapha,reduces Vata,Sweet,Warm seasons
+Chocolate chiffon cake,sweet,heating,sweet,Kapha,Pitta,Sweet,All Seasons
+Christmas cake,Sweet,heavy,sour,Vata+Pitta+Kapha-,Kapha+,Throat,Winter
+Strawberry and vanilla cake with butter icing,,,,,,,
+Eggless cake,sweet,heating,sweet,Vata&Kapha+,Pitta-,Throat,Winter
+Swiss roll,sweet,heating,sweet,Vata & Kapha,Pitta,Sweet,Winter & Spring
+Pineapple pastry ,sweet,heating,sour,aggravates-Kapha,pacifies-Vata,Digestive,Warm season
+Black forest pastry,rasa,Tikta,Viruddh,Kapha,Pitta,Mrigavarta,Winter
+Coconut finger,sweet,heating,sweet,aggravates Kapha,pacifies Vata and Pitta,fingers,year-round
+Pineapple cake ,sweet,heating,sour,aggravates_ Pitta,pacifies_ Kapha,digestive,summer
+Chocolate walnut cookies (Chocolate aur akhrot ke cookies),Sweet,Heating,Sweet,Vata & Pitta,Kapha,Digestive,Winter
+Chocolate chip cookies,Sweet,Tikta,Madhura,Vata,Kapha,Prakriti,Winter
+Sweet plain biscuit,sweet,sushedana,madhura,Vata+Pitta++,Kapha-,Throat,Winter
+Chocolate biscuit,,,,,,,
+Coconut biscuit (Nariyal ke biscuit),sweet,heating,sweet,Vata & Pitta,Kapha,Digestive system,Winter
+Sweet and salty biscuit (Meethay aur namkeen biscuit),rasa,madhura,sanla,aggravates_kapha,pacifies_vata,abdomen,all_seasons
+Peanut biscuit,,,,,,,
+Pin wheel biscuit,,,,,,,
+Saffron biscuit (Kesar biscuit),rasa,Tikta,Vipak,Ruksha,Pitta,Atisthana,Winter
+Masala biscuit,Rasa: Madhura (Sweet),Virya: Sheeta (Cooling),Vipaka: Madhura (Undergoes sweet transformation),aggravates_dosha: Kapha,pacifies_dosha: Vata,region: All,season: Winter
+Ice box cookies,Sweet,Cooling,Sweet,Vata+Pitta++,Kapha-,Throat,Winter
+Ginger bread man,rasa,Tikta (Bitter),Katu (Pungent),Aggravates_Kapha,Pacifies_Vata,Abdomen,Winter
+Danish cookies,sweets,susukumaana,madhura,Vata+Pitta++,Kapha-,Central Nervous System,Winter
+Short bread cookies,sweet,heating,sweet,Vata&Pitta+,Kapha-,Digestive system,Winter
+Coffee biscuit,,,,,,,
+Melting moments,,,,,,,
+Ginger biscuit (Adarak ke biscuit),rasa,Tikta,Viryahot,Aggravates_Kapha,Pacifies_Vata,Zatuar,All_Seasons
+Soyabean muthias,rasa,katu,madhur,Vata,Pitta,Abdomen,Summer
+Soyabean tikki,rasa,Katu,Vipak,Vata,Kapha,Agni,Grishma
+Soyabean namak paras,,,,,,,
+Peanut burfi (Moongfali ki burfi),rasa,Tikta,Viruddh,aggravates_kapha,pacifies_vata,Urdhvareta,Autumn
+Spinach peanut namak paras (Palak moongfali namak paras),,,,,,,
+Gram flour and semolina chilla/cheela/savory pancake (Besan suji chilla/cheela),,,,,,,
+Rice moong dal cheela (Chawal aur moong dal ka cheela),,,,,,,
+Split bengal gram sweet rice (Channa dal sweet rice),,,,,,,
+Sweet poori (Meethi poori),rasa,Sweet,heating,Vata,Pitta,Digestive system,All seasons
+Wheat flour and moong dal burfi (Atta aur moong dal ki burfi),,,,,,,
+Spinach burfi (Palak burfi),,,,,,,
+Sweet split chickpea roti (Sweet channa dal roti/Puranpoli),rasa,Sweet,heating,Vata,Pitta,Digestive,Cold
+Sprouted moong daliya ,Sweet,Cooling,Sweet,Vata & Pitta,Kapha,Abdomen,Spring
+Sprouted moong poha ,Sweet,Cooling,Sweet,Vata & Pitta,Kapha,Digestive Tract,Summer
+Pearl millet ladoo (Bajra ladoo),rasa,tikta,madhura,aggravates_vata,pacifies_kapha,head,summer
+Paushtik ladoo,,,,,,,
+Paushtik roti,Sweet,heating,sweet,Vata & Pitta,Kapha,Abdomen,Winter
+Semolina carrot vada (Suji gajar vada),rasa,tikta,katu,Vata+Pitta+Kapha-,Pitta-,Urdhvaanga,Winter
+Dhokla,,,,,,,
+Kashmiri tea (Kehwa),Rasa: Amla,Virya: Sheeta (Cold),Vipaka: Katu (Pungent),Aggravates_Dosha: Kapha,Pacifies_Dosha: Pitta,Region: North (Kashmir),Season: Winter
+Steeped hot coffee,rasa,Tikta,Ushna,Vata,Pitta,Urdhvaanga,All Season
+Hot chocolate,Sweet,heating,sweet,Vata&Pitta,Kapha,Heart & Lungs,Winter
+Cold coffee (with cream),,,,,,,
+Banana milkshake with ice cream (Kele ka milkshake ice cream ke saath),sweet,cooling,sweet,increases Kapha,decreases Pitta,digestive,summer
+Flavoured milkshake,sweet,heating,sweet,Vata&Kapha,Pitta,Sweet,All seasons
+Jal jeera,,,,,,,
+Gingo,Gingo,Astringent,Cooling,Pitta,Kapha,Heart,Fall
+Mintade,Rasa: Katu (Pungent),Virya: Shita (Cold),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Urdhvaanga (Upper part of the body including head and neck),season: Sharad Ritu (Autumn)
+Canjee,Sweet,heating,sweet,aggravates Vata and Pitta,pacifies Kapha,Digestive tract,Summer
+Cauliflower canjee (Phoolgobhi ki canjee),rasa,tikta,madhura,vata,kapha,antarang,sharad-hemant
+Potato canjee (Aloo canjee),sweet,heating,sweet,vata&kapha,pitta,root,winter
+Vermicelli porridge (Semiya/Seviyan porridge),,,,,,,
+Semolina upma (Suji/Rava upma),,,,,,,
+Vermicelli upma (Semiya/Seviyan upma),rasa,Katu,Vipak,Aggravates-Vata,Pacifies-Kapha,Head & Upper Abdomen,All Season
+Rice upma,sweet,heating,sweet,vata+kapha++,pitta-,digestive,winter
+Bread upma,sweet,heating,sweet,vata+pitta,kapha-,digestive system,winter
+Vegetable upma,,,,,,,
+Poha,sweet,heating,sweet,vata,pitta,digestive,summer
+Vegetable poha,,,,,,,
+Moong dal stuffed cheela/chilla (Moong dal ka cheela/chilla),,,,,,,
+Paneer stuffed cheela/chilla,,,,,,,
+Indian style egg bhujia (Anda bhujia (Indian style)),rasa,katu,madhura,Aggravates_Vata,Pacifies_Kapha,Digestive,Summer
+French omelette/omlet,Rasa: Madhura (Sweet),Virya: Usna (Hot),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,Pacifies_dosha: Vata,region: Stomach,season: Winter
+Puffy omelette/omlet,pungent,hot,sweet,Vata,Pitta,Head,Spring/Summer
+Orange omelette/omlet,,,,,,,
+Cheese and mushroom omelette/omlet,,,,,,,
+Spanish omelette/omlet,,,,,,,
+Mixed stock,rasa,Katu (Pungent),Usna (Heating),Vata,Pitta,Balanced (All regions),All Seasons
+Meat stock,meat stock,Rookshas (Dry),Amla (Sour-Pungent),Aggravates - Vata & Kapha,Pacifies - Pitta,Region - Abdomen,Season - Winter
+White stock,sweet,heating,sweet,Pitta,Kapha,lung,winter
+Meat consomme (with mutton),,,,,,,
+Consomme au julienne,rasa,Astringent,Cooling,Pitta,Kapha,Mouth,Winter
+Consomme au vermicelli,rasa,katu,madhura,Vata,Pitta,Head & Upper Body,Winter
+Green pea soup (Matar ka soup),sweet,cooling,sweet,Vata & Kapha,Pitta,Digestive system,Winter
+Spinach soup (Palak ka soup),rasa,Tikta,Katu,Kapha,Pitta,Medhralaya,All_Seasons
+Mixed vegetable soup,,,,,,,
+Cheese soup,sweet,heating,sweet,Kapha+,Pitta-,Lung,Winter
+Mulligatawny soup,,,,,,,
+Cream of carrot soup,sweet,cooling,sweet,vata&kapha,pitta,head,winter
+Cream of broccoli soup,sweet,heating,sweet,Kapha,Pitta,Head,Winter
+Cream of potato soup,sweet,cooling,sweet,Vata+Pitta++,Kapha-,Digestive,Winter
+Almond soup (Badam ka soup),sweet,cooling,sweet,Vata,Pitta,Digestive,Winter
+Cold cucumber cream soup ,rasa,katu,madhura,vata,kapha,all,summer
+Cold tomato soup,Katu,Shita,Madhura,Vata,Kapha,Head,Summer
+Chicken stew,,,,,,,
+Veg paneer stew,sweet,cooling,sweet,Kapha,Pitta,digestive,Winter
+Onion-green chilli parantha/paratha (Pyaaz aur hari mirch ka parantha/paratha),,,,,,,
+Methi parantha/paratha,Rasa: Tikta (Bitter),Virya: Shita (Cooling),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Abhijaha (Stomach),season: Sharad-Hemant (Autumn-Winter)
+Bathua poori,,,,,,,
+Gram flour poori (Besan poori),,,,,,,
+Beetroot poori (Chukandar ki poori),,,,,,,
+Peas poori (Matar ki poori),,,,,,,
+Peas kachori (Matar kachori),rasa,Madhura,Katu,Aggravates-Vata,Pacifies-Kapha,Abdomen,Summer
+Pizza,rasa,tikta,madhura,kapha,pitta,ushna,rtu-varsha
+Bacon and mushroom pancake,,,,,,,
+Cheese and tomato pancake,,,,,,,
+Minced meat pancake (with chicken),rasa,Tikta,Ushna,Rajas,Pitta,Mahasroto,Grishma
+Eggplant/Brinjal rice (Vangi bhat),,,,,,,
+Kashmiri 'tahar',rasa,Katu,Vipak,Pitta,Kapha,Ruksha,Autumn
+Cumin pulao (Jeera/Zeera pulao),rasa,Tikta,Katu,Vaat,Pitta,Chardikey,Hot seasons
+Peas pulao (Matar pulao),,,,,,,
+Split bengal gram dal and vegetable pulao (Channa dal and vegetable pulao),,,,,,,
+Black channa pulao/ Bengal gram pulao (Kale chane ka pulao),rasa,Tikta,Katu,Vata,Pitta,Krishna,Winter
+Mutton pulao,,,,,,,
+Chicken pulao,rasa,tikta,vipaka,madhura,kapha_vata,predominantly_abdomen,winter
+Mexican rice,rasa,Katu,Vipak,Vata,Pitta,Majja,Summer
+Plain khitchdi (Plain khichri/khichdi),,,,,,,
+Instant idli (with semolina),rasa,tikta,vipaka,madhura,vatakaphapittajahara,head,summer
+Plain dosa,,,,,,,
+Masala dosa mixed vegetable fillings,,,,,,,
+Masala dosa paneer fillings,,,,,,,
+Uttapam,rasa,madhura,tikta,aggravates_kapha,pacifies_vata,abdomen,monsoon
+Appam,sweet,heavy,sweet,increases Kapha,decreases Vata,stomach,cool season
+Beans and macaroni,,,,,,,
+Spaghetti bolognese,,,,,,,
+Meat and macaroni casserole,Meat,Tikta(Bitter),Ushna(Hot),Vata+Pitta++Kapha-,Kapha++Vata+Pitta-,No specific region,Winter
+Spaghetti with meat balls and tomato sauce,,,,,,,
+Spaghetti with paneer balls and tomato sauce,rasa,tikta,katu,aggravates_kapha,pacifies_vata,stomach,winter
+Lasagne with meat sauce,,,,,,,
+Lasagne with vegetables,,,,,,,
+Home made egg noodles,,,,,,,
+Sour lentils (Khatti dal),Sour,Katu (Pungent),Katu (Pungent),Vata,Pitta,Abdomen,Winter
+Urad special dehusked,,,,,,,
+Arhar with spinach (Arhar dal aur palak),Sweet,cooling,sweet,Vata & Pitta,Balances Kapha,Legs,Winter
+Moong dal with vadi,rasa,Katu,Vipak,Aggravates_Kapha,Pacifies_Vata,Digestive,Summer
+Rasam with tamarind (Puli rasam/ Chintapandu rasam/ Charu/Saaru),,,,,,,
+Rasam with lemon (Nimmakaya rasam/Nimmakaya charu/Elumichai rasam/Nimbe hannina saaru),rasa,tikta (sour),usna (heating),Kapha,Pitta,Amashaya (stomach),All seasons
+Green gram whole with baghar (Sabut moong dal with tadka),,,,,,,
+Urad sabut special,,,,,,,
+Kabuli channa curry,rasa,tikta,madhura,aggravates_vata,pacifies_kapha,uradaya,hot season
+Besan gatte curry,,,,,,,
+Dry masala chops,,,,,,,
+Mutton korma,,,,,,,
+Shahi keema kofta curry,,,,,,,
+Minced meat ball curry,,,,,,,
+Boti kebab,Katu,Usna,Madhur,Vaatakaphaprakopak,Pittatapacanam,Antarang,Sharad-Hemant
+Mutton seekh kebab,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,Mesentery,Winter
+Indian lamb and egg curry (Nargisi kofta),,,,,,,
+Soya chunks sweet and sour (Nutrinugget sweet and sour),,,,,,,
+Soya chunks korma (Nutrinugget korma),rasa,heating,vipaka-sweet,aggravates-kapha,pacifies- Pitta,legumes and chest,winter
+Mushroom matar,rasa,tikta,katu,Vata,Kapha,Atisara,Sharad-Hemant
+Soya chunks and peas (Nutrinugget matar),Soya chunks (Nutrinugget matar): sweet,cooling,sweet,Vata & Kapha,Pitta,Legumes,Winter/Spring
+Vegetable yakhni,rasa,Madhura,Katyusha,Aggravates_Kapha,Pacifies_Vata,Stomach,Winter
+Spinach mushroom (Palak mushroom),rasa,tikta,katu,Kapha,Pitta,Heart,Autumn
+Vegetarian nargisi kofta curry,,,,,,,
+Roast chicken,rasa,Tikta,Usna,Vata+Kapha++,Pitta-,Throat,Cold Seasons
+Shahi chicken masala,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,marga,all_seasons
+Tomato chicken,,,,,,,
+Creamy chicken,Sweet,heating,sweet,Vata&Pitta,Kapha,Throat,Winter
+Broccoli chicken ala king,,,,,,,
+Ginger chicken,,,,,,,
+Chicken sweet and sour,rasa,Amla,Katu,Aggravates_Kapha,Pacifies_Pitta,Kamarupa,All seasons
+Chicken korma,sweet,heating,sweet,vata+pitta++kapha-,pitta-,meat,winter
+Bengal fish curry (Bengali machli curry),,,,,,,
+Fish finger,,,,,,,
+Fish in coconut milk (Nariyal ke doodh ke saath machli),rasa,tikta,madhur,aggravates_kapha,pacifies_vata,majas,ritu (monsoon)
+Prawn curry (with coconut) (Jhinga curry),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,coastal,warm
+Baked stuffed fish,,,,,,,
+Fish pie,rasa,tikta,vipakasara,rajas,kaphapacan,pradhana,all_seasons
+Crispy baked fish,,,,,,,
+Fish souffle,rasa,tikta,madhura,vatakaphaprakopak,kaphavataharni,prakriti,all_seasons
+Potato curry (Aloo ki sabzi),rasa,madhura,katu,rajas,kapha,stomach,winter
+Egg curry (Anda curry),rasa,tikta,madhura,aggravates_kapha,pacifies_vata,stomach,summer
+Vegetable curry with coconut ,,,,,,,
+Curd with potatoes (Dahi aloo),Sweet,Cooling,Sweet,Vata & Pitta,Kapha,Stomach,Summer
+Potato kofta curry (Aloo kofta curry),,,,,,,
+Yam kofta curry (Zimikand/Suran kofta curry),,,,,,,
+Jackfruit kofta curry (Kathal ka kofta curry),rasa,tikta,katu,Vata+Kapha,Pitta-,Stomach,Summer
+Spinach and potato (Palak aloo),Spinach (Palak): sweet,cooling,sweet,Vata & Kapha,Pitta,leafy greens,cool season
+Mooli bhujia,rasa,Tikta,Katu,Vaatakaphahara,Vata-Kapha Prakopaka,Antarang,Rainy Season
+Bathua bhujia,,,,,,,
+Cabbage rolls (dry) ((Pattagobhi rolls) (dry)),,,,,,,
+Cabbage rolls (curry) ((Pattagobhi rolls)(curry)),,,,,,,
+Dry arbi (Sookhi arbi),rasa,tikta,katu,vata,kapha,antakarana,winter
+Masala arbi,,,,,,,
+Peas brinjal bhartha (Matar baingan bhartha),rasa,tikta,madhura,katu,rajas,stomach,autumn
+Okra/Lady's fingers fry (Bhindi sabzi/sabji/subji),,,,,,,
+Crispy okra/Crispy lady's fingers (Karare bhindi),Rasa: Tikta (Bitter),Virya: Usna (Hot),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,pacifies_dosha: Kapha,region: Abhishyandiya (Abdomen & chest),season: Sharad Ritu (Autumn)
+Beans foogath,rasa,Katu,Vipak,Kapha,Pitta,Vegetables,Summer
+Stuffed bittergourd (wet) (Bharwa karele),,,,,,,
+Jackfruit/Kathal (dry),sweet,heating,sweet,increases Kapha and Pitta,reduces Vata,ripe fruit - tropical regions,summer
+Yam fried (Zimikand/Suran fried),rasa,tikta,madhur,aggravates_kapha,pacifies_vata,root,winter
+"Cauliflower, pea and potato bhujia (Phoolgobhi, matar aur aloo bhujia)",,,,,,,
+Vegetable jalfrezi,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,abdomen,all_seasons
+Vegetables stir fry ,rasa,tikta,katu,Aggravates_Kapha,Pacifies_Pitta,Digestive,All_Seasons
+Broccoli delight,Kapha,Cooling,Sweet,Vatta,Pitta,Heavy,Winter
+Dhansak (vegetarian),rasa,madhura,tikta,aggravates_vata,kapha_pacifies,abdomen,winter
+Cauliflower basket,Katu,Ruksha,Madhura,Kapha,Pitta,Antarangam,Winter
+Stuffed bottle gourd (Stuffed ghiya/lauki),Sweet,cooling,sweet,increases Kapha,decreases Pitta,abdomen,autumn
+Ducheese potato,rasa,tikta,katu,Vata,Kapha,Stomach,Winter
+Roast potatoes ,sweet,heating,sweet,vata+,kapha-,stomach,autumn-winter
+Stuffed baked potatoes ,rasa,tikta,madhura,aggravates_vata,pacifies_kapha,stomach,autumn
+Potato nests,sweet,cooling,sweet,vata&kapha,pitta,root,autumn
+Parsley potato,,,,,,,
+Creamed spinach and mushroom,rasa,Madhura (sweet),Sheeta (cold),Kapha,Pitta,Reduced,Winter
+Fricassee of Mushroom,,,,,,,
+Cauliflower au gratin,sweet,heating,sweet,vata,kapha,head,winter
+Vegetable and cheese pie,rasa,Tikta(bitter),Usna(hot),Vata,Pitta,Balance,Winter
+Spinach souffle ,rasa,Katu,Madhur,Aggravates_Kapha,Pacifies_Vata,Abdomen,Winter
+Beetroot and egg salad (Chukandar aur ande ka salad),,,,,,,
+Sour cream potato salad,sour,katu,madhur,Vata+Pitta++Kapha-,Kapha+Vatta-,Summer,All Seasons
+Tossed green salad,,,,,,,
+Spring basket salad,sweet,cooling,sweet,Pitta,Kapha,Abdomen,Spring
+Cucumber and yogurt salad (Kheere aur dahi ka salad),,,,,,,
+Chicken and tomato towers,,,,,,,
+Jellied sunshine fruit salad,sweet,heating,sweet,Pitta,Kapha,Sweet,Summer
+Tomato aspic,Katu,Usna,Madhura,Pitta,Kapha,Rakta,Sharad-Rtu
+Frozen frosty fruit salad (Phalon ka salaad),sweet,cold,sweet,Vata,Kapha,Cooling,Summer
+French dressing,Katu,Tikta,Madhura,Vata+Pitta+Kapha-,Pitta+Kapha++,Head,Summer
+Mayonnaise without eggs,Rasa: Katu (Sour-Pungent),Virya: Ushna (Hot),Vipaka: Katu (Undergoes pungent taste conversion),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Abdomen,season: Summer
+Curd dressing ,sweet,cooling,sweet,Kapha,Pitta,Abdomen,Summer
+Carrot raita (Gajar ka raita),sweet,cool,sweet,increases Kapha,decreases Vata & Pitta,digestive,summer
+Pumpkin raita (Kaddu ka raita),sweet,cooling,sweet,vata+,kapha-,stomach,autumn
+Mint and peanut raita (Pudinay aur moongfali ka raita),,,,,,,
+Spinach raita (Palak ka raita),,,,,,,
+Bathua raita,,,,,,,
+Pineapple raita (Ananas ka raita),,,,,,,
+Banana raita (Kele ka raita),sweet,cooling,sweet,increases Kapha,decreases Vata,stomach,summer
+Mango raita (Aam ka raita),sweet,cooling,sweet,Vata+Pitta-,Balances Kapha,Digestive,Summer
+Guava raita (Amarood ka raita),rasa,tikta,katu,aggravates_kapha,pacifies_pitta,stomach,summer
+Grapes raita (Angoor ka raita),sweet,cooling,sweet,Vata & Kapha,Pitta,Digestive system,Summer
+Bottle gourd kheer (Ghiya/Lauki kheer),,,,,,,
+Pumpkin kheer (Kaddu ki kheer),sweets,slightly cooling,sweet,Vata,Pitta,Stomach,Autumn
+Apple kheer (Seb ki kheer),Sweet,Cooling,Sweet,Vata & Pitta,Balances Kapha,Digestive,Autumn
+Caramel custard (baked),sweet,slanakara (neutral),madhura (sweet),Kapha,Balances Vata and Pitta,Abdomen,Winter
+Vanilla ice cream without egg,Sweet,Cooling,Sweet,Increases Kapha,Reduces Pitta,Oral cavity,Summer
+Vanilla ice cream with egg,sweet,cooling,sweet,Vata & Kapha,Pitta,Sweet,Summer
+Strawberry ice cream,sweet,cooling,sweet,Vata & Pitta,Kapha,Head & Heart,Summer
+Chocochip ice cream,sweet,cooling,sweet,vata++,kapha+,abdomen,summer
+Choconut ice cream,sweet,cooling,sweet,Kapha,Vata,Cold regions,Summer
+Pear chocholate sunday,sweet,heating,sweet,Vata,Kapha,Heart,Winter
+Chocolate sauce,sweet,heating,sweet,Kapha,Pitta,Throat,Winter
+Coffee ice cream,,,,,,,
+Coffee pear alaska,,,,,,,
+Crunchy butterscotch,Sweet,Hot,Sweet,Vata+Pitta++,Kapha-,Oral Cavity,Autumn
+Peach melba ice cream,sweet,cooling,sweet,Vata+Pitta++,Kapha-,Sweet,Summer
+Vanilla ice cream with apples in hot cherry sauce,rasa,tikta,madhura,vata,kapha,srotashtaya,summer
+Grape and orange whip,,,,,,,
+Honey banana cream,Sweet,heating,sweet,increases Kapha,decreases Vata and Pitta,abdomen,summer
+Raspberry bavarian cream,,,,,,,
+Fruit delight,sweet,heavy,sweet,increases_ Pitta,decreases_Kapha,Abdomen,Summer
+Creamy chocolate mousse,sweet,heavy,sweet,Kapha,Vata,Heart,Winter
+Cold lemon souffle,,,,,,,
+Cold orange souffle,sweet,cooling,sweet,Vata&Kapha,Pitta,Lung&SmallIntestine,Winter
+Cold pineapple souffle,sweet,cooling,sour,Vata & Pitta (aggravates),Kapha (pacifies),Digestive,Summer
+Cold vanilla souffle,Sweet,cooling,sweet,Vata&Kapha,Pitta,Heart & Lungs,Winter
+Cold chocolate souffle,sweet,cooling,sweet,Kapha,Vata,Heart,Winter
+Stewed fruit (with pear),sweet,cooling,sweet,increase_kapha,decrease_ Pitta,digestive,autumn
+Apricot fool,Sweet,Cooling,Sweet,Vata & Pitta,Balances Kapha,Digestive,Summer
+Pavlova,sweets,heating,sweet,vata,pitta,heart,summer
+Apple crumb pudding,sweet,cooling,sweet,aggravates-Kapha,pacifies-Pitta,digestive,autumn
+Steamed cake with chocolate sauce,,,,,,,
+Hot lemon souffle,,,,,,,
+Gulab jamun with milk powder,,,,,,,
+Chum chum,Sweet,heating,sweet,increases Kapha and Pitta,decreases Vata,digestive system,summer
+Dil bahar,,,,,,,
+Rasbhari,Sweet,heating,sweet,Pitta,Kapha,Heart,Summer
+Rajbogh,,,,,,,
+Rasgulla,sweets,sweet,sweet,Kapha,Pitta,Throat,Summer
+Rasmalai,sweet,heating,sweet,increases Kapha,decreases Vata,sweet dishes,summer/monsoon
+Khoa coconut burfi,sweet,heavy,sweet,increases_Kapha,reduces_Vata,digestive,winter
+Danedar burfi,sweet,heating,sweet,Pitta,Kapha,Abdomen,Summer
+Semolina burfi (Suji/Rava burfi),,,,,,,
+Pumpkin coconut burfi (Kaddu aur nariyal ki burfi),sweet,heating,sweet,increases Kapha,reduces Vata and Pitta,digestive,autumn/winter
+Khoa ladoo,sweet,heating,sweet,increases Vata & Kapha,reduces Pitta,Sweet dish,Winter/Cold seasons
+Wheat and gram flour ladoo (Atta besan ladoo),,,,,,,
+Semolina ladoo with nuts (Suji/Rava ladoo with nuts),rasa,tikta,madhura,vata,kapha,stomach,winter
+Sesame chickpeas brittle (Til aur channe ki chikki),rasa,tikta,katu,aggravates_Vata,pacifies_Kapha,head,winter
+Murmura chikki,Roktam,Tikshna,Madhura,Vatakapha,Pittakapha,Kantha,Winter
+Masala onion pakora/pakoda (Pyaaz ke pakode),rasa,Tikta,Ushna,Kapha,Pitta,Mukhya,All seasons
+Masala green chilli pakora/pakoda (Hari mirch kay pakode),rasa,katu,tikta,aggravates_kapha,pacifies_vata,Urdhvaanga,Summer
+Chicken pakora/pakoda,,,,,,,
+Fish pakora/pakoda,rasa,tikta,vipaka,madhura,vatakaphapittarak,Raktamajja Srotas,All Season
+Paneer cutlet,sweety,heating,pungent,vata+kapha,pitta-,chest,winter
+Sago cutlet/vadas (Sabudana cutlet/vadas),rasa,tikta,madhura,vata,kapha,stomach,summer
+Poshtik cutlet,Sweet,heating,sweet,Vata,Kapha,Abdomen,Winter
+Egg cutlet (Anda cutlet),rasa,katu,madhura,vata,kapha,Mamsa,All seasons
+Minced meat cutlet,,,,,,,
+Vegetable samosa,,,,,,,
+Plain urad dal vada (Uzunne vada/Minapa garelu/Ulundu vadai/Medu vada),,,,,,,
+Masala urad dal vada,,,,,,,
+Khaman (dhokla),,,,,,,
+Instant dhokla,rita,ushna,madhura,vata,kapha,sarira,vasanta
+Tomato ginger chutney (Tamatar adarak ki chutney),rasa,tikta,katu,aggravates_pitta,pacifies_kapha,head,summer
+Mint tomato chutney (Pudinay aur tamatar ki chutney),katu,ushna,madhur,Pitta,Kapha,Urdhvaanga,Summer
+Coriander chutney (Hare dhaniye ki chutney),,,,,,,
+Gooseberry chutney (Amla chutney),,,,,,,
+Walnut chutney (Akhrot ki chutney),sweet,heating,sweet,Vata & Pitta,Kapha,Digestive,Autumn
+Saunth/Sonth chutney with ginger,rasa,Tikta,Katu,Aggravates_Vata,Pacifies_Kapha,Zatra,Autumn
+Gun powder chutney,rasa,pungent,heating,vata,pacifies kapha,digestive tract,hot season
+Dessicated coconut chutney (Sookhe kase nariyal ki chutney) ,,,,,,,
+Curd mint dip ,sweet,cooling,sweet,Kapha,Pitta,Digestive,Summer
+Curd vegetable dip,sweet,cool,sweet,increases Kapha,decreases Pitta,Abdomen,Summer
+Mayonnaise vegetable dip,,,,,,,
+Tomato and cucumber sandwich (Tamatar aur kheere ka sandwich),,,,,,,
+Tomato sandwich (grilled),rasa,katu,madhur,aggravates_pitta,pacifies_kapha,digestive,summer
+French sandwich (toasted),,,,,,,
+Peanut butter cucumber sandwich,,,,,,,
+Mint and peanut sandwich,rasa: Katu,virya: Tikta,vipaka: Katu,aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Oral cavity,season: All seasons (year-round)
+Spicy chutney sandwich,rasa,pungent,heating,aggravates_vata_and_pitta,pacifies_kapha,digestive,summer
+Chicken walnut sandwich (Chicken aur akhrot ke sandwich),rasa,Tikta,Vipak-Katu,Aggravates-Pitta,Pacifies-Kapha,Digestive system,All season
+Rolled sandwich,rasa,katu,madhura,Vata,Pitta,Digestive,All-Seasons
+Ribbon sandwich,rasa,tikta,madhura,vata,kapha,Pradhana,All Seasons
+Checker board sandwich,sweet,heavy,sweet,Vata+Pitta++,Kapha-,Lung,Autumn
+Submarine sandwich,rasa,tikta,madhura,vata,kapha,all,summer
+Cheese open sandwich,sweet,heating,pungent,aggravates_Vata,pacifies_Kapha,head,autumn
+Sunset and sunrise open sandwich,rasa,tikta,karshana,Pitta,Vata,Head,All Seasons
+Danish luncheon sandwich,,,,,,,
+Chicken and corn open sandwich,rasa,katu,madhura,aggravates_vata,pacifies_kapha,head,summer
+Chocolate sponge cake,sweet,heating,sweet,Vata+Pitta++,Kapha-,Throat,Winter
+Chocolate swiss roll,sweet,heating,sweet,Vata&Kapha,Pitta,Sweet,Winter
+Lemon curd filling,,,,,,,
+Jam filling,Sweet,heating,sweet,Aggravates Vata and Pitta,Pacifies Kapha,Abdomen,Summer
+Chocolate pastry,Sweet,Heating,Sweet,Aggravates Kapha,Pacifies Vata & Pitta,Throat,Winter
+Assorted pastry,,,,,,,
+Orange gateau,sweet,heating,sweet,Vata&Pitta+,Kapha-,Throat,Summer
+Black forest gateau,sweet,heavy,sweet,Kapha,Pitta,Throat,Winter
+Lemon cake,,,,,,,
+Dundee cake,sweet,heavy,sweet,Vata+Pitta++Kapha-,Pitta-,North,Autumn
+Victorian sandwich cake,,,,,,,
+Chocolate eggless cake,sweet,heavy,sweet,Vata+Pitta++Kapha-,Pitta-Kapha+Vata-,Digestive System,Winter
+Orange eggless cake,sweet,heating,sweet,Pitta+,Kapha-,Digestive,Summer
+Chocolate glace icing,sweet,heavy,sweet,Kapha,Pitta,Mukha,Winter
+Butter icing,Sweet,Heavy,Stable,Aggravates Kapha,Pacifies Vata,Sweet,Winter
+Chocolate butter icing,sweet,heating,sweet,Vata&Pitta,Kapha,Sweet,Winter
+Almond biscuit (Badam ke biscuit),sweet,heating,sweet,Vata & Kapha,Pitta,Digestive system,Winter
+Orange biscuit,sweet,heating,sweet,Pitta,Vata,Digestive,Summer
+Gingerman biscuit,rasa,Tikta,Katu,Vata,Pitta,Sthana,Ritu (Autumn)
+Coffee drops,,,,,,,
+Christmas biscuit,rasa,sweet,heavy,aggravates_kapha,pacifies_vata,abdomen,winter
+Christmas wreath biscuit,,,,,,,
+Christmas bell biscuit,Rasa,Katu,Madhur,Vata,Kapha,Abdomen,Winter
+Christmas star biscuit,Sweet,heating,sweet,Vata & Kapha (aggravates),Pitta (pacifies),Digestive system,Winter
+Christmas tree biscuit,,,,,,,
+Chocolate cream shells,sweet,heating,sweet,Vata&Kapha+,Pitta-,Heart,Winter
+Jelly biscuit,rasa,sweet,heating,Vata,Pitta,Digestive,Autumn
+Cherry and walnut cookies,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,head,winter
+Cheese straws,,,,,,,
+Butterfly biscuit,Sweet,Heating,Sweet,Vata & Pitta,Kapha,Digestive tract,Summer
+Flan pastry,sweet,heavy,sweet,increases_kapha,decreases_vata,abdomen,winter
+Fruit flan,sweet,cool,sweet,Vata&Kapha,Pitta,Abdomen,Winter
+Orange cream flan,sweet,heating,sweet,Pitta++,Kapha+,Abdomen,Summer
+Fruit puree tart,sweet,heating,sweet,aggravates_kapha,pacifies_vata,digestive,summer
+Apple banana pie,sweet,heating,sweet,Vata&Pitta,Kapha,digestive,autumn
+Lemon chiffon pie,sweets,heating,sweet,Pitta,Kapha,Digestive tract,Summer
+Orange chiffon pie,Sweet,heating,sweet,aggravates Vata & Pitta,pacifies Kapha,digestive,summer
+Cream buns,sweet,heavy,sweet,vata+,kapha-,head,all seasons
+Savoury puffs,sweet,heating,sweet,Vata&Pitta,Kapha,Lungs&Stomach,All seasons
+Choux swans,sweet,heavy,sweet,Kapha,Pitta,Abdomen,Winter
+Potato aigrettes,,,,,,,
+Cream horns,Sweet,Kapha++,Madhura,Aggravates Kapha,Pacifies Vata and Pitta,Head & Chest,Winter
+Savoury cheese horns,sweet,heating,sweet,Vata & Kapha (aggravates),Pitta (pacifies),digestive region,autumn
+Paneer patties,sweet,heavy,sweet,Kapha,Pitta,Thorax,Winters
+Vegetable patties ,,,,,,,
+Pearl millet infant food (Bajra shishu aahaar),,,,,,,
+Sajina,Sajina,Katu,Madhura,Vata,Pitta,Heart,Winter
+Cereal mix ,Sweet,Cooling,Sweet,Increases Vata and Kapha,Reduces Pitta,Abdomen,Winter
+Pulse mix,,,,,,,
+Shishu ahar,rasa: Madhura,virya: Sheet,vipaka: Madhura,aggravates_dosha: Kapha,pacifies_dosha: Vata,region: Stomach,season: Winter
+Cereal pulse mix with amylase rice flour,,,,,,,
+Banana groundnut paste/puree,sweet,heating,sweet,increases Kapha and Pitta,decreases Vata,digestive tract,summer
+Rice dal porridge (Chawal dal ki khichdi/khichri),rasa,sweet,heavy,neither_increases_nor_decreases,pacifies_vata_and_kapha,digestive,winter
+Lentils and semolina porridge (Dal suji porridge/daliya),,,,,,,
+Spinach khichri (Palak khichri/khichdi),,,,,,,
+Vegetable mix,rasa,tikta,katu,aggravates_Kapha,pacifies_Pitta,Antarang,All_Seasons
+Lentils and wheat porridge (Dal wheat porridge/daliya ),,,,,,,
+Maize porridge,Sweet,heating,sweet,Vata & Pitta (aggravates),Kapha (pacifies),Grama (cereal region),Autumn/Winter
+Spinach peanut burfi (Palak aur mungfali ki burfi),rasa,Tikta (Bitter),Sheet (Cooling),Kapha,Pitta,Medas (Fatty tissue),Sharad (Autumn)
+Split bengal gram burfi/fudge (Channa dal burfi),,,,,,,
+Chickpea flour cookies (Sweet besan rounds/cookies),,,,,,,
+Pearl millet mathri (Bajra mathri),rasa,Katu,Vipak,Ruksha,Pitta,Uddishtha,Grishma
+Sesame biscuit (Til ke biscuit),Sesame Biscuit (Til ke biscuit):sweet,heating,sweet,vata,pitta,head,winter
+Fermented bengal gram vada (Khameerikrit/Ufna hua channa dal ka vada),rasa,tikta,katu,Vatta+Pitta++Kapha-,Vatta-Pitta-,Urdhvaanga,Summer
+Poshtik namak paras,Salty,Cooling,Sweet,Aggravates Kapha,Pacifies Vata,Abdomen,Winter
+Soya chikki,,,,,,,
+Besan bathua chilla/cheela,,,,,,,
+Wheat flour and nuts ladoos (Atta nuts ladoos),,,,,,,
+Gram flour and semolina dhokla (Besan suji dhokla),,,,,,,
+Atta dal burfi ,sweet,heating,sweet,vata&kapha,pitta,sweet,winter&summer
+Soya roti,,,,,,,
+Poshtik khichdi/khichri,sweet,heating,sweet,Vata & Pitta,Balances Kapha,Abdomen,Winter
+Namkeen daliya,,,,,,,
+Sprouts upma ,rasa,katu,madhura,Vata,Pitta,Abdomen,Spring
+Semolina idli (Suji/Rava idli),rasa,Katu,Vipak,Aggravates-Vata,Pacifies-Kapha,Head,Winter
+Poshtik chilla/cheela,rasa,tikta,katu,Kapha,Pitta,Abdomen,All Seasons
+Stuffed bittergourd (dry) (Bharwa karela),,,,,,,
+Cauliflower potato canjee,,,,,,,
+Creamed spinach,sweet,heavy,stable,Kapha,Pitta,Digestive tract,Winter
+Mango milkshake with ice cream (Aam milkshake ice cream ke saath),sweettaste,coolingvirya,sweetvipaka,Pitta,Kapha,Digestive,Summer
+Pineapple milkshake with ice cream (Ananas milkshake ice cream ke saath),ritta,katu,madhur,Kapha,Pitta,Chardi,Grishma
+Orange milkshake with ice cream (Narangi milkshake ice cream ke saath),sweet,heating,sweet,Pitta+,Kapha-,Digestive,Summer
+Woodapple juice (Bel ka sharbat),sweet,cooling,sweet,Pitta,Kapha,Digestive tract,Summer
+Sattu drink,Sweet,Cooling,Sweet,Vata & Pitta,Balances Kapha,Stomach,Summer
+Apple and honey sorbet (Seb aur shehad ka sharbat),Sweet(rasa),Cooling(virya),Sweet(vipaka),None(aggravates_dosha),Kapha(pacifies_dosha),Oral cavity(region),All seasons(season)
+Thandai,sweet,cooling,sweet,Vata&Kapha,Pitta,heart & kidneys,summer
+Cucumber sharbat (Kheere ka sharbat),sweet,cooling,sweet,Pitta,Kapha,Cooling parts of body,Summer
+Apple oats chia seed smoothie,Sweet,Cooling,Sweet,Vata & Pitta,Kapha,Digestive,Autumn
+Nannari sharbat,Sweet,cooling,sweet,Pitta,Kapha,Heart & Small Intestines,Hot Season
+Semolina milk drink (Thari kanji),Sweet,neutral/slightly heating,sweet,Vata,Pitta (in excess),Abdomen,Winter
+Saffron milk (Kesariya doodh),sweeta,heating,sweet,Vata,Pitta,Heart & Small Intestines,Winter
+Black rice kheer (Chak-hao kheer),sweet,heating,sweet,vata+ Pitta++,Kapha-,stomach,winter
+Coconut kheer (Nariyal ki kheer),sweet,heating,sweet,vata,pitta,sweet,all seasons
+Apple sago payasam (Seb aur sabudana ki kheer),sweet,cooling,sweet,Vata&Kapha,Pitta,Digestive tract,Winter
+Kesari bath,sweet,heating,sweet,Pitta,Kapha,head,spring
+Putharekulu,Sweet,Pitta increasing,Sweet,Aggravates Pitta,Pacifies Kapha,Oral cavity,Hot season
+Mango malpua,sweet,heating,sweet,increases Kapha and Pitta,decreases Vata,Sweet,Summer
+Mango vanilla custard,Sweet,Cooling,Sweet,Increases Kapha,Decreases Pitta,Digestive,Summer
+Kiwi granola pudding,sweet,cooling,sweet,Vata&Kapha,Pitta,Digestive,Spring
+Oats burfi,sweet,cooling,sweet,Vata&Kapha,Pitta,Digestive,Winter
+Lotus seed halwa (Kamal gattay ka halwa),,,,,,,
+Amaranth ladoo (Rajgira ladoo),,,,,,,
+Chhena poda,sweet,heating,sweet,Vata & Pitta,Kapha,sweet dishes,summer
+Sweet couscous dessert,sweet,sweetish,sweet,none,kapha,sweet,winter
+Sweetened yogurt (Shrikhand),sweets,heating,sweet,vata,kapha,stomach,summer
+Thickened sweetened milk (Rabri),sweet,heavy,sweet,increases_Kapha,reduces_Vata,abdomen,winter
+Gram flour halwa (Besan halwa),,,,,,,
+Prawn sandwich,rasa,katu,madhura,Vata,Pitta,Abdomen,All_Seasons
+Watercress sandwich,,,,,,,
+Fish sandwich ,rasa,tikta,madhura,vata,pitta,balya,rituyantarani
+Kidney bean sandwich with cottage cheese,rasa,Karshna,Vipak-Tikta,aggravates_Kapha,pacifies_Vata,Upper,Autumn
+Finger millet biscuit (Ragi biscuit),,,,,,,
+Buttermilk biscuit,,,,,,,
+Lemon cookies,,,,,,,
+Sweet potato biscuit (Shakarkand ke biscuit),,,,,,,
+Raspberry shortbread cookies,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,abdomen,winter
+Pumpkin cookies ,sweet,heavy,sweet,Vata+,Kapha-,Throat,Autumn
+Greenpea cookies,rasa,madhura,katu,rajas,kapha,svadisthana,spring
+Sunflower cookies,,,,,,,
+Cardamom cookies (Elaichi cookies),Katu,Tikta,Madhura,Vata,Kapha,Atisara,Winter
+Hazelnut cookies,sweet,heating,sweet,Vata,Pitta,Digestive system,Autumn
+Milk cookies,sweet,heating,sweet,Vata & Kapha,Balances Pitta,Sweet,Cold season
+Cranberry cookies,Sweet,Cooling,Sour,Pitta(Aggravates),Kapha(Pacifies),Head(Region),Winter(Season)
+Olive biscuit,rasa,Katu,Vipak,Ayurveda-specific,Pacifies-Kapha,Abdomen,Winter
+Tutti fruitti biscuit,rasa,tikta,madhura,kapha,vata,srotashtaya,all_seasons
+Peach blueberry preserves,sweet,cooling,sweet,Pitta,Kapha,Digestive,Summer
+Pear preserves (Naashpati ka murabba),sweet,heavy,sweet,aggravates_kapha,pacifies_vata,mouth,winter
+Starfruit preserves ,Sweet,heating,sweet,aggravates Kapha and Pitta,pacifies Vata,tropical regions,summer
+Gooseberry pickle (Amla ka achaar),rasa,Sharpa,Katu,Aggravates-Vata,Pacifies-Kapha,Head,Winter
+Lotus stem pickle (Kamal kakdi ka achar),rasa,Tikta (Bitter),Katu (Pungent),Kapha,Pitta,Balanced,Monsoon
+Date pickle (Khajoor ka achaar),Sweet,heating,sweet,increases Vata & Pitta,decreases Kapha,digestive system,summer
+Garlic pickle (Lahasun ka achar),rasa,pungent,heating,vata,pitta,sharp,hot season
+Fermented bamboo shoot pickle (Mesu pickle),,,,,,,
+Sweet peach pickle (Aadoo ka achaar),sweet peach pickle (Aadoo ka achaar): madhur,tikta,madhur,Pitta,Kapha,Rakta,Sharad-Hemant
+Pickled mustard greens ,,,,,,,
+Small onion pickle ,rasa,pungent,heating,aggravates_vata,pacifies_kapha,head,winter
+Green tomato pickle (Haray tamatar ka achaar),,,,,,,
+Pickled cabbage ,,,,,,,
+Coconut pickle (Nariyal ka aachar),,,,,,,
+Potato pickle (Aloo ka achaar),,,,,,,
+Mango murabba candy,sweet,heating,sweet,aggravates_kapha,pacifies_vata,digestive,summer
+Afghani chicken,sweet,heating,pungent,aggravates_Kapha,pacifies_Vata,chest,winter
+Fish orly,,,,,,,
+Hariyali Fish Tikka,,,,,,,
+Chicken manchurian,rasa,Tikta,Katu,Aggravates-Kapha,Pacifies-Vata,Abdomen,Winter
+Handi chicken,Rasa,Tikta,Madhura,Aggravates_Kapha,Pacifies_Vata,Mamsam,Sarad-Ritu
+Lemon chicken,,,,,,,
+Lemon butter fish,sarca,katu,madhura,vata_ Pitta,kapha_ pacified,Mandaga,Summer
+Baked eggs in tomato sauce,,,,,,,
+Egg in a pepper,sweet,heating,pungent,aggravates_Vata&Pitta,pacifies_Kapha,digestive,spring-summer
+Spinach mushroom scrambled egg (Palak mushroom bhurji),rasa,Katu,Madhura,Vatakapha,Pittapacifies,Lung,Autumn
+Corn omelette/omlet,,,,,,,
+Cajun chicken,,,,,,,
+Paaner do pyaza,rasa,katu,madhura,aggravates_vata_pitta,pacifies_kapha,abdomen,winter
+Cabbage manchurian (Pattagobhi manchurian),,,,,,,
+Gobi 65,,,,,,,
+Paneer lababdar,,,,,,,
+Roasted cauliflower steak,,,,,,,
+Sauteed radishes with green beans,,,,,,,
+Garlic chutney/Poondu chutney (Lahasun ki chutney),,,,,,,
+Schezwan chutney,rajas,tikta,katu,Vata&Pitta,Kapha,Head & Abdomen,All Season
+Onion chutney (Pyaaz ki chutney/Vengaya chutney),rasa,pungent,heating,aggravates_vata_and_kapha,pacifies_pitta,head_neck_throat,all_seasons
+Dates chutney (Khajoor ki chutney),sweet,heating,sweet,Vata & Pitta,Balances Kapha,Digestive tract,Hot season
+Chicken salad,rasa,Katu,Vipak,Aggravates-Kapha,Pacifies-Vata,Throat,Summer
+Macaroni salad,,,,,,,
+Cabbage raita (Pattagobhi raita),rasa,katu,madhur,aggravates_pitta,pacifies_kapha,stomach,summer
+Pomegranate raita (Anaar ka raita),sweet,cooling,sweet,Vata&Kapha,Pitta,Abdomen,Summer
+Onion raita (Pyaaz ka raita),rasa,tikta,katu,aggravates_kapha,pacifies_pitta,stomach,summer
+Green chilli raita (Hari mirch ka raita),katu,ushna,katu,Vata & Pitta,Kapha,Madhura,Grishma (monsoon)
+Kale salad,,,,,,,
+Spinach and paneer souffle ,,,,,,,
+Masala souffle ,sweet,heating,sweet,Vata,Pitta,Abdomen,Winter
+Chicken and cheese souffle,Chicken,Sukla,Madhura,Aggravates-Vata,Pacifies-Kapha,Abdomen,Winter
+Tamarind chutney (Chintapandu pachadi/Puli chutney),,,,,,,
+Pav bhaji masala,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,abdomen,all_seasons
+Green chutney,,,,,,,
+Sago khitchdi/khichri (Sabudana khitchdi/khichri),Sago khitchdi/khichri: Sweet,heating,sweet,Vata & Kapha,Pitta,Digestive Tract,Summer
+Gram flour chilla/cheela (Besan chilla/cheela),,,,,,,
+Vegetable namkeen jave,rasa,tikta,katu,aggravates_vata,pacifies_kapha,mouth,all_seasons
+Khakhra,Rasa,Katu,Madhura,Vata,Pitta,Prakriti,Winter
+Moong bean dosa (Pesarattu),,,,,,,
+Methi thepla,Rasa: Tikta (Bitter),Virya: Shita (Cold),Vipaka: Katu (Pungent),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: Abdomen,season: Winter
+Rice puttu (Ari puttu),,,,,,,
+Buckwheat pancake (Khura),sweet,cooling,sweet,Vata&Kapha,Pitta,digestive tract,autumn
+Quinoa khichdi/khichri,,,,,,,
+Khakhra chaat,,,,,,,
+Banana appam,sweet,heavy,sweet,increases_kapha,decreases_vata,stomach,summer
+Veg manchurian,,,,,,,
+Pav bhaji,,,,,,,
+Rice murukku,rasa,tikta,madhura,aggravates_kapha,pacifies_vata,head,rainy_season
+Bhel puri ,,,,,,,
+Semolina dhokla (Suji/Rava dhokla),,,,,,,
+Spicy corn chaat ,spicy,tikta,katu,vata+kapha,pitta-,abdomen,summer
+Jackfruit fritters (Ponsa mulik/Kathal ka pakora),sweet,heating,sweet,vata+kapha,pitta,digestive,summer
+Banana chips (Kele ke chips),sweet,heating,sweet,aggravates_kapha,pacifies_vata,digestive,summer
+Wheat cake,Sweet,Kapha++,Madhura,Aggravates Vata and Pitta,Pacifies Vata and Pitta,Stomach,Winter
+Mango cheesecake,sweet,heating,sweet,aggravates_kapha,pacifies_vata,digestive,summer
+Carrot cake (Gajar ka cake),sweet,heating,sweet,Vata,Pitta,Head & Neck,Winter
+Semolina cake (Suji/Rava cake),rasa,tikta,madhura,vata,kapha,all over,winter
+Finger millet cake (Ragi cake),rasa,tikta,madhura,vata,kapha,shira,winter
+Honey cake,sweet,heating,sweet,aggravates Kapha,pacifies Vata,Throat,Winter
+Almond cardamom cake (Badam elaichi cake),sweet,heating,sweet,Vata & Pitta,Kapha,Heart & Digestive,Winter
+Tutti frutti cake,sweet,heating,sweet,Vata&Pitta,Kapha,Head,Summer
+Ham and Bean soup,,,,,,,
+Whey soup,,,,,,,
+Bottle gourd soup (Ghiya/Lauki soup),Sweet,cooling,sweet,increases Kapha,decreases Pitta and Vata,Head (especially brain),Summer
+Baked potato soup,Sweet,Pungent,Sour,Vata++,Kapha+,Digestive,Winter
+Pumpkin soup,Sweet,cooling,sweet,Kapha,Pitta (reduced),Stomach,Autumn
+Sweet corn soup,,,,,,,
+Paneer soup,sweet,cooling,sweet,Kapha,Pitta,Digestive,Winter
+Curried Cauliflower soup,rasa,tikta,katyushna,Vata,Pitta,Abhyantara,Autumn
+Millet soup,sweet,cool,sweet,vata,pacifies,head,winter
+Lemon coriander soup,pungent,cooling,sour,Pitta,Kapha,Digestive,Winter
+Garlic soup,,,,,,,
+Dal makhani,,,,,,,
+Dalma,,,,,,,
+Split bengal gram dal (Channa dal),,,,,,,
+Horsegram dal (Kulthi dal) ,kasaya,tikta,madhura,vata,kapha,kshudra,winter
+Panchmel dal,raktashali,tikta,katu,Vata+Pitta++,Kapha-,Abdomen,All Season
+Dal dhokli,rasa,tikta,madhura,katu,rajas,abdomen,winter
+Gujarati handvo ,raja,tikta,madhura,Vata,Kapha,Abhyanta,Grishma
+Sev (Omapodi/Karapusa),rasa,tikta,madhura,vata,kapha,Urdhvaanga,Autumn
+Papdi,Sweet,heating,sweet,Vata & Kapha (aggravates),Pitta (pacifies),Digestive tract,Winter
+Jowar dosa,sweet,cooling,sweet,aggravates Vata & Pitta,pacifies Kapha,digestive system,summer
+Bread roll,Sweet,Heavy,Pungent,Aggravates Vata & Kapha,Pacifies Pitta,Digestive System,All Seasons
+Soya seekh kebab,,,,,,,
+Classic seasoned black beans,,,,,,,
+Maa chaane ki dal,sweet,heating,sweet,vata & kapha,pacifies pitta,stomach,winter
+Garlic chickpea soup (Lahasun aur chane ka shoraba),rasa,Katu,Vipak,Aggravates_Kapha,Pacifies_Vata,Digestive,Winter
+White sauce (thin),Rasa: Madhura (sweet),Virya: Sheeta (cold),Vipaka: Katu (pungent),aggravates_dosha: Kapha,pacifies_dosha: Pitta,region: All regions,season: Winter
+White sauce (medium),,,,,,,
+White sauce (thick),,,,,,,
+Cheese sauce,rasa,Katu,Vipak,Kapha,Pitta,SthANa,Winter
+Egg sauce,,,,,,,
+Mushroom sauce,,,,,,,
+Mustard sauce,pungent,hot,pungent,vata,kapha,head,winter
+Brown sauce,,,,,,,
+Classic italian pasta,,,,,,,
+Pasta spinach sauce,,,,,,,
+Pasta cheese sauce,,,,,,,
+Mayonnaise,,,,,,,
+Low calorie quick mayonnaise,,,,,,,
+Thousand island dressing,Sweet,pungent,sour,aggravates Vata and Kapha,pacifies Pitta,Condiment,Summer
+Curd dip,Sweet,Cooling,Slightly Sweet,Vata & Kapha (aggravates),Pitta (pacifies),Abdomen,Summer
+Short crust pastry,,,,,,,
+Choux pastry,sweet,heating,sweet,Vata+Pitta++,Kapha-,Throat,Winter
+Flaky pastry,rasa,tikta (sour-astringent),ushna (heating),vatta,pitta,prana (lungs),sravana (autumn)
+Sponge cake ,sweets,tikta (bitter-sweet),madhura (sweet),vata+kapha++,pitta-,thorax,autumn-winter
+Glace icing,rasa,sweet,cold,vata,kapha,throat,summer
+Royal icing,sweet,cooling,stable,Vata&Kapha,Pitta,head & throat,winter
+American frosting,sweet,heavy,sweet,Vata+,Kapha-,Head & Throat,Winter
+Gum icing,sweet,cooling,sweet,Vata+Kapha,Pitta-,Mouth,All Seasons
+Channa murmura premix,,,,,,,
+Cracked wheat and green gram dal premix (Dalia moong dal premix),,,,,,,
+Rice flakes and roasted channa ,,,,,,,
+Spinach soup in milk ,,,,,,,
+Vegetable soup,rasa,Madhura,shläkshna,Kapha,Pitta,Rakta,All seasons
+Mashed banana with milk,sweet,cooling,sweet,increases Kapha,decreases Vata,digestive tract,summer
+Poha with curd (Poha aur dahi),rasa,Tikta (Bitter),Sheeta (Cold),Vata,Kapha,Agni,Rainy Season
+Potato with curd,Sweet,Cooling,Sweet,Vata & Kapha,Pitta,Root,Autumn
+Sweet wheat porridge (Sweet dalia),sweet,sweet,sugandhana,Kapha,Pitta,Stomach,Winter
+Vegetable khichdi/khichri,rasa,madhura,tikta,aggravates_kapha,pacifies_vata,stomach,all_seasons
+Moong dal mixture,sweet,cooling,sweet,Vata & Pitta,balances Kapha,Abdomen,Spring
+Cracked wheat khichri/khichdi (Dalia khichri/khichdi),rasa,Katu,Madhura,Vata,Pitta,Apanasthambhana,Hot season
+Stewed apple,sweet,cooling,sweet,pitta,kapha,digestive,autumn
+Lemon squash (Nimbu ka squash),Sharq,Katu,Madhur,Pitta,Kapha,Raktamoolika,Summer
+Orange squash (Santre ka squash),sweet,heating,sweet,vata & pitta,balances kapha,stomach,autumn
+Lichi squash,sweet,heating,sweet,vata & pitta,kapha,cooling,summer
+Mango squash (Aam ka squash),sweet,heating,sweet,aggravates_Pitta,pacifies_Kapha,digestive,summer
+Pineapple squash (Ananas ka squash),Sweet,heating,sweet,aggravates Kapha,pacifies Vata and Pitta,tropical,summer
+Lemon and ginger squash (Nimbu aur adrak ka squash),,,,,,,
+Apple jam (Seb ka murabba),Sweet,Cooling,Sweet,Increases Kapha,Decreases Pitta,Abdomen,Winter
+Plum jam (Aloo bukhara jam),sweet,slightly heating,sweet,Pitta,Kapha,Digestive system,Autumn
+Pineapple jam ,sweet,heating,sour,aggravates_kapha,pacifies_vata,digestive,summer
+Guava jelly (Amrood ki jelly),sweet,heating,sweet,Vata & Pitta,Kapha,Digestive tract,Summer
+Orange marmalade (Santray ka murabba),rasa,tikta,madhur,katu,amla,Raktamajja,Winter
+Carrot murabba (Gajar ka murabba),Sweet,heating,sweet,Vata & Pitta,Kapha,Sweet (Madhura),Winter
+Gooseberry marmalade (Amla murabba),,,,,,,
+Ginger candy (Adrak ki candy),Katu,Tikta,Madhura,Aggravates_Kapha,Pacifies_Vata,Zatuva,Ritu (Winter)
+Mango pickle (Aam ka achaar),sweet,pungent,pungent,Pitta,Kapha,Digestive,Summer
+Mixed vegetable pickle (Sabziyoon ka achaar),rasa,pungent,heating,Vata,Pitta,All over the body,All seasons
+Sweet lemon pickle (Neembu ka meetha achaar),rasa,Tikta (sour),katu (pungent),Kapha,Pitta,Raktamoola,Summer
+Plum chutney (Aloo bukhara ki chutney),sweets,heavy,sweet,Vata+Pitta+Kapha-,Pitta-Vata-Kapha+,Abdomen,Autumn
+Raw mango chutney (Kachhe aam/Kairi ki chutney),rasa,tikta,katu,aggravates_kapha,pacifies_pitta,stomach,summer
+Tomato sauce,,,,,,,
+Tomato puree,Katu,Tikta,Madhura,Pitta,Kapha,Raktamala,Summer
+Garam masala,pungent,hot,sweet,aggravates_Vata&Pitta,pacifies_Kapha,digestive system,all seasons
+Chat masala,,,,,,,
+Kashmiri masala,,,,,,,
+Rasam powder (Rasam masala),rasa,Katu,Amla,Aggravates_Vata,Pacifies_Kapha,Gastrointestinal,All_Seasons
+Sambar powder (Sambar masala),,,,,,,
+Tartare sauce,sarira,tikta,madhura,vata+kapha++,pitta-,coastal,summer
+Barbeque sauce,rasa,katu,madhura,aggravates_kapha,pacifies_vata,head,autumn
+Bread sauce,sweet,heavy,sweet,Vata+Pitta++,Kapha-,North,Autumn
+Green chilli sauce,pungent,heating,sharp,aggravates_ Pitta,pacifies_ Vata & Kapha,head to mouth,summer
+Home made plain noodles,rasa,Tikta,Katu,Vata,Pitta,Rakta,Grishma
+Dal moong,rasa,tikta,madhur,kapha,vata,utsanga,grishma
+Onion tomato baghar (Pyaaz tamatar ka tadka),rasa,pungent,heating,aggravates_Pitta,pacifies_Vata,Pitta,All seasons
+Mustard seeds baghar (Mustard seed tadka),rasa,pungent,heating,vata,kapha,agni,winter
+Hot cherry sauce,pungent,heating,sweet,Pitta,reduces Kapha,abdomen,summer
+Apple jelly (Seb ki jelly),sweet,cooling,sweet,Vata & Pitta,Kapha,Digestive system,Autumn
+Marmalade (Murabba),sweets,heating,sweet,Vata,Pitta,Head,Winter
+Plum squash (Aloo bukhara squash),Sweet,Heating,Sweet,Pitta,Vata,Abdomen,Autumn
+Lemon green chilli pickle (Nimboo aur hari mirch ka achaar),rasa,pungent,heating,Pitta,reduces Kapha,Sharma,Summer
+Brinjal pickle (Baingan ka achaar),,,,,,,
+Sweet and sour tomato pickle (Khatta meetha tamatar ka achaar),rasa,Madhura,Katu,Kapha,Pitta,Prakriti,All Season
+Jhatpat achar with carrot (Jhatpat achaar gajar ke saath),rasa,tikta,katu,Vata+Pitta++,Kapha-,Urdhvaanga,Summer
+Tomato chutney (Tamatar ki chutney),,,,,,,
+Tomato ketchup,rasa,Katu,Amla,Aggravates_Pitta,Pacifies_Vata,Digestive,All_Seasons
+Bengal 5 Spice Blend (Panch Phoran),,,,,,,

@@ -1,0 +1,5120 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17">
+    <Prefix name="" IRI="http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Energy_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irregular_meals"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physique"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#abnormal_movements"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#air"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alcohol"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#anxiety"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#appetite_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aroma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#assimilation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attachment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#attributes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blinking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blue_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_frame_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_part"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_temperature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_temperatures"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#body_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#breathing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broad"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#brown_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#burns_too_easily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caffiene"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#calmness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cautious_speech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cell_movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#clear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#climate_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cloudy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coarse_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#coating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#color_of_white_of_eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#congestive_disorders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#consistent_sweating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#constipated"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cool_to_touch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#creativity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#curly_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cytoplasmic_movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#damp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dark_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#diet_types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#difficulty_with_rising"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#digestion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#disorders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#doshas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dry_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dull"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#early_riser"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ears"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#earth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easy_sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easy_to_gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#easy_to_lose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electric_blue_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#emotion_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#emotions_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#enjoys_all_seasons"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#erratic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ether"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#evacuation_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eye_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eye_color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eye_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eye_size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feelings"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#feelings_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fine_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fire"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flexibility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#forgiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#functional_Principles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#good_fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#good_sleep_when_tired"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#good_stamina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#greed"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#green_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#grey_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gross"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gunas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#habit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hair_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard_to_gain"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hard_to_lose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hatred"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hazel_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hearing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heart_beat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy_food"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy_weight"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#hot"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_characterisitics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_physiology"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inflammatory_disorders"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intelligence"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#intense_appettite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iris_color"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#irregular"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#irregular_routine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jealousy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kapha_pitta_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kapha_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#kapha_vata_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_blue_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_color_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#light_colored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#liquid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lubricate_joints"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lustrous_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintain_immunity"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium_fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium_shade"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#medium_stamina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#memory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#memory_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#metabolism"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mobile"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moderate_sweating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moist"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moist_eye"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#moisturize_skin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#muscle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#muscle_movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nail_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nutrition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#often_intense"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oily_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overeating"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overexerts_when_competing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#oversleeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pancha_bhootha"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#perception"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pitta_kapha_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pitta_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pitta_vata_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poor_fertility"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poor_sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#poor_stamina"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#possessiveness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefers_cool"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefers_warm"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primary_emotion_anger"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primary_emotion_conflict_avoidance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#primary_emotion_fear"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#profuse_in_heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#proportionate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#purposeful"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quick_to_forget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#quick_to_learn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rajas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rajasik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rambling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regular_appettite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#regular_evacuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#rough"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sathvik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sattva"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scanty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scanty_in_heat"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensitivity_to_light"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sensory_organ"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sex_drive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sharp"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sharpness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#size"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#skin_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slate-blue_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sleep_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slimy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow_evacuation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow_speech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow_to_forget"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#slow_to_learn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smell"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smoking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#smooth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#soft"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sometimes_lose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speech_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speed_of_forgetting"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#speed_of_learning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stamina_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#static"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#steady"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sticky"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#straight_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#stress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#subtle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sweat_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#talkative"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tamas"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tamasik"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tans_easily"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tans_too_deeply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#taste"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tastes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#teeth"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temperaments"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tend_to_underexert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tending_towards_grey_and_balding_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tends_to_overexert"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thick_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thin"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#things_to_avoid"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#thinking_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tissue_movement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tongue"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#travel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#understanding"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#usually_brown_hair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variable_appettite"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#variable_sleep"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vata_kapha_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vata_pitta_kapha_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vata_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vatta_pitta_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#verbal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#violet_eyes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#vision"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#visual"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#warm_to_touch"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#water_supply"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weight_related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wind"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#InBalanceProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#OutOfBalanceProperty"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#balanced_agni"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#characteristics_summary"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#color_of_white_of_eye"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#endurance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eye_sensitivity_to_light"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#eye_sharpness"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#governs"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAppetite"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasAttribute"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasBodyFrame"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasClimatePrefernce"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEmotionType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEvacuation"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasEyeColor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasFertilityType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasHairType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMemoryForgetting_Type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasMemorylearningType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSexDriveType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSkinType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSleepType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSpeechType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasStaminaType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasSweatType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasThinkingType"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWeight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_body_part"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_body_temperature"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_body_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_disorder"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_element"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_eye_size"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_feeling"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_guna"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_habit"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_iris_color"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_memory"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_moist_eye"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_nail_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_physique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_temperament"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_tongue_coating"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_tongue_shape"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_vital_essence"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_weight"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#knownBy"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#organ_of_importance"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#personality"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#postitive_elements"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#predominant_Element"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#purpose"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#role"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#adaptability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#affection"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#air"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#alcohol"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anxiety"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#anxious"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#artemisia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#attachment"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#balance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bergamot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#birch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bitter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#black_pepper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#blue_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#boldness"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bravery"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brittle_nails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#broad"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brown"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brown_coating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#brown_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#calm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cardamom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cedar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#chamomile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#changeable"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cinnamom"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clarity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clary_sage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#clove"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#cold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#composure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#confusion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#conservative"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#consistency"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#content"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coriander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#courage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#damp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#depressed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#depression"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#desire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#drinking_caffiene"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#dull"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#earth"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#eucalyptus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fear"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fennel"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#fire"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#frankincense"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#geranium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ginger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#green_coating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#happy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#heavy_food"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#high"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#hot"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#impatience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#indecisive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#interest"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irregular_meals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#irregular_routine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jasmine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#jatamansi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#joy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#juniper"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#large"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lavender"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lemon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lemongrass"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#light_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#logic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#long"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lotus"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#love"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#low"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medium"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#medium_sized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#moderate"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#moist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#motivated"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#muddy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#myrrh"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#narrow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#neroli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nervous"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#normal_temperature"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not_moist"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not_sensitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#not_sensitive_to_light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#nutmeg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ojas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#orange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oregano"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#overeating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#overly_critical"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#oversleeping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pale_color"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#passivity"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patchouli"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#patience"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#peppermint"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#prana"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pressurized"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rajas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#regular_meals"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#regular_routine"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#regular_sleeping"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rose"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rosemary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#rosewood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sage"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#salty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sandalwood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#satisfied"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sattva"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sensitive"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sensitive_to_light"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sharp"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#short"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#small"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#smoking"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#soft_pink_tender_nails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sour"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#space"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stressed_out"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#strong_willed"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sweet"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tamas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tejas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thick_strong_oily_nails"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#thin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#traveling"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#tulsi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vanilla"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vata_type_individual"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#vetiver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#warm"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#water"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#white_coating"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#wind"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#windy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#withdrawal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#yiang_yiang"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty abbreviatedIRI="rdfs:alias"/>
+    </Declaration>
+    <Declaration>
+        <Datatype IRI="#time"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#body_types"/>
+        <Class IRI="#doshas"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#dull"/>
+        <Class IRI="#slow"/>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#moist"/>
+        <Class IRI="#oily"/>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Irregular_meals"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#abnormal_movements"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#air"/>
+        <Class IRI="#pancha_bhootha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alcohol"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anger"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#anxiety"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#appetite_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#assimilation"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#attachment"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blinking"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blue_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#body_frame_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#body_temperature"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#breathing"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broad"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#brown_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#burns_too_easily"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caffiene"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#calmness"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cautious_speech"/>
+        <Class IRI="#speech_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cell_movement"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#clear"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#climate_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cloudy"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#coarse_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cold"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#color_of_white_of_eye"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#congestive_disorders"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#consistent_sweating"/>
+        <Class IRI="#sweat_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#constipated"/>
+        <Class IRI="#evacuation_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cool_to_touch"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#creativity"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#curly_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cytoplasmic_movement"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#damp"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dark_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dense"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#difficulty_with_rising"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#digestion"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#doshas"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#knownBy"/>
+            <Class IRI="#gunas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dry"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dry_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dull"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#early_riser"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ears"/>
+        <Class IRI="#sensory_organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ears"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#purpose"/>
+            <Class IRI="#hearing"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#earth"/>
+        <Class IRI="#pancha_bhootha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy_sleep"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy_to_gain"/>
+        <Class IRI="#weight_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#easy_to_lose"/>
+        <Class IRI="#weight_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electric_blue_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emotion_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#emotions_type"/>
+        <Class IRI="#thinking_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#enjoys_all_seasons"/>
+        <Class IRI="#climate_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#erratic"/>
+        <Class IRI="#evacuation_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#evacuation_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eye_color"/>
+        <Class IRI="#eye_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eye_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eye_size"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eyes"/>
+        <Class IRI="#sensory_organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#eyes"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#purpose"/>
+            <Class IRI="#vision"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fear"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#feelings_type"/>
+        <Class IRI="#thinking_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fertility"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fine_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire"/>
+        <Class IRI="#pancha_bhootha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flexibility"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#forgiveness"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#good_fertility"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#good_sleep_when_tired"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#good_stamina"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#greed"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#green_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#grey_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gross"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hair"/>
+        <Class IRI="#body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hair_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard_to_gain"/>
+        <Class IRI="#weight_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hard_to_lose"/>
+        <Class IRI="#weight_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hatred"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hazel_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hearing"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heart_beat"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heat"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy_food"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy_weight"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#hot"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inflammatory_disorders"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intelligence"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intense"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#intense_appettite"/>
+        <Class IRI="#appetite_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iris_color"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#irregular"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#irregular_routine"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jealousy"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_pitta_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#attachment"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#calmness"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#forgiveness"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#love"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#congestive_disorders"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#greed"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#possessiveness"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#lubricate_joints"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#maintain_immunity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#moisturize_skin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#water_supply"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAppetite"/>
+            <Class IRI="#regular_appettite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#cloudy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#dense"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#gross"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#hard"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#heavy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#slimy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#slow"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#smooth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#soft"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#static"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#sticky"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#broad"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#heavy_weight"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#proportionate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClimatePrefernce"/>
+            <Class IRI="#enjoys_all_seasons"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEmotionType"/>
+            <Class IRI="#primary_emotion_conflict_avoidance"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEvacuation"/>
+            <Class IRI="#slow_evacuation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#blue_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#brown_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFertilityType"/>
+            <Class IRI="#good_fertility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#lustrous_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#oily_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#thick_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#usually_brown_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemoryForgetting_Type"/>
+            <Class IRI="#slow_to_forget"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorylearningType"/>
+            <Class IRI="#slow_to_learn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSexDriveType"/>
+            <Class IRI="#steady"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#cool_to_touch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#medium_shade"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#tans_easily"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#difficulty_with_rising"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#easy_sleep"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechType"/>
+            <Class IRI="#cautious_speech"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechType"/>
+            <Class IRI="#slow_speech"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#good_stamina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#tend_to_underexert"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweatType"/>
+            <Class IRI="#consistent_sweating"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweatType"/>
+            <Class IRI="#moderate_sweating"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThinkingType"/>
+            <Class IRI="#emotions_type"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThinkingType"/>
+            <Class IRI="#feelings_type"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#easy_to_gain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#hard_to_lose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#has_guna"/>
+            <Class IRI="#tamas"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#earth"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#water"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_temperament"/>
+            <NamedIndividual IRI="#conservative"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_things_to_avoid"/>
+            <NamedIndividual IRI="#cold"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_things_to_avoid"/>
+            <NamedIndividual IRI="#damp"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_things_to_avoid"/>
+            <NamedIndividual IRI="#heavy_food"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_things_to_avoid"/>
+            <NamedIndividual IRI="#overeating"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#has_things_to_avoid"/>
+            <NamedIndividual IRI="#oversleeping"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#bergamot"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#birch"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#black_pepper"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#cardamom"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#cinnamom"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#clove"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#eucalyptus"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#ginger"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#juniper"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#lemon"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#lemongrass"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#oregano"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#rosemary"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#sage"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_type"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#needs_aroma_type"/>
+            <NamedIndividual IRI="#tulsi"/>
+        </ObjectHasValue>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#kapha_vata_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_blue_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_color_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#light_colored"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#liquid"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#love"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lubricate_joints"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lustrous_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maintain_immunity"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium_fertility"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium_shade"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#medium_stamina"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#memory_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#metabolism"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mobile"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moderate_sweating"/>
+        <Class IRI="#sweat_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moist"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moist_eye"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#moisturize_skin"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muscle"/>
+        <Class IRI="#body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#muscle_movement"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nose"/>
+        <Class IRI="#sensory_organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nose"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#purpose"/>
+            <Class IRI="#smell"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nutrition"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#often_intense"/>
+        <Class IRI="#sex_drive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oily"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oily_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overeating"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overexerts_when_competing"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#oversleeping"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#perception"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_kapha_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#intelligence"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#understanding"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#anger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#hatred"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#inflammatory_disorders"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#jealousy"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#assimilation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#body_temperature"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#digestion"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#metabolism"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#nutrition"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAppetite"/>
+            <Class IRI="#intense_appettite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#hot"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#light"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#liquid"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#mobile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#oily"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#sharp"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#medium"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#proportionate"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClimatePrefernce"/>
+            <Class IRI="#prefers_cool"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEmotionType"/>
+            <Class IRI="#primary_emotion_anger"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEvacuation"/>
+            <Class IRI="#regular_evacuation"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEvacuation"/>
+            <Class IRI="#sometimes_lose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#electric_blue_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#green_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#hazel_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#light_blue_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFertilityType"/>
+            <Class IRI="#medium_fertility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#fine_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#light_color_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#oily_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#straight_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#tending_towards_grey_and_balding_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorylearningType"/>
+            <Class IRI="#quick_to_learn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorylearningType"/>
+            <Class IRI="#slow_to_forget"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSexDriveType"/>
+            <Class IRI="#often_intense"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#burns_too_easily"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#light_colored"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#warm_to_touch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#early_riser"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#easy_sleep"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechType"/>
+            <Class IRI="#purposeful"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#medium_stamina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#overexerts_when_competing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweatType"/>
+            <Class IRI="#profuse_in_heat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThinkingType"/>
+            <Class IRI="#visual"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#easy_to_gain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#easy_to_lose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#fire"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#water"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pitta_vata_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poor_fertility"/>
+        <Class IRI="#fertility"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poor_sleep"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#poor_stamina"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#possessiveness"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefers_cool"/>
+        <Class IRI="#climate_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefers_warm"/>
+        <Class IRI="#climate_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pressure"/>
+        <Class IRI="#feelings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primary_emotion_anger"/>
+        <Class IRI="#emotion_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primary_emotion_conflict_avoidance"/>
+        <Class IRI="#emotion_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#primary_emotion_fear"/>
+        <Class IRI="#emotion_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#profuse_in_heat"/>
+        <Class IRI="#sweat_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#proportionate"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#purposeful"/>
+        <Class IRI="#speech_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quick_to_forget"/>
+        <Class IRI="#speed_of_forgetting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#quick_to_learn"/>
+        <Class IRI="#speed_of_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rajas"/>
+        <Class IRI="#gunas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rajasik"/>
+        <Class IRI="#diet_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rambling"/>
+        <Class IRI="#speech_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_appettite"/>
+        <Class IRI="#appetite_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#regular_evacuation"/>
+        <Class IRI="#evacuation_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#rough"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sathvik"/>
+        <Class IRI="#diet_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sattva"/>
+        <Class IRI="#gunas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scanty"/>
+        <Class IRI="#sweat_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scanty_in_heat"/>
+        <Class IRI="#sweat_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensitivity_to_light"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sensory_organ"/>
+        <Class IRI="#body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sex_drive"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sharp"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sharpness"/>
+        <Class IRI="#eye_characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skin"/>
+        <Class IRI="#sensory_organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skin"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#purpose"/>
+            <Class IRI="#perception"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#skin_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slate-blue_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sleep_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slimy"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow_evacuation"/>
+        <Class IRI="#evacuation_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow_speech"/>
+        <Class IRI="#speech_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow_to_forget"/>
+        <Class IRI="#speed_of_forgetting"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#slow_to_learn"/>
+        <Class IRI="#speed_of_learning"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smell"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smoking"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#smooth"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#soft"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sometimes_lose"/>
+        <Class IRI="#evacuation_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#space"/>
+        <Class IRI="#pancha_bhootha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speech_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speed_of_forgetting"/>
+        <Class IRI="#memory_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#speed_of_learning"/>
+        <Class IRI="#memory_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stamina_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#static"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#steady"/>
+        <Class IRI="#sex_drive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sticky"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#straight_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#stress"/>
+        <Class IRI="#feelings"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#subtle"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sweat_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#talkative"/>
+        <Class IRI="#speech_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tamas"/>
+        <Class IRI="#gunas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tamasik"/>
+        <Class IRI="#diet_types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tans_easily"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tans_too_deeply"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#taste"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#teeth"/>
+        <Class IRI="#body_part"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tend_to_underexert"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tending_towards_grey_and_balding_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tends_to_overexert"/>
+        <Class IRI="#stamina_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thick_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thin"/>
+        <Class IRI="#body_frame_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#thinking_type"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tissue_movement"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tongue"/>
+        <Class IRI="#sensory_organ"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tongue"/>
+        <ObjectAllValuesFrom>
+            <ObjectProperty IRI="#purpose"/>
+            <Class IRI="#taste"/>
+        </ObjectAllValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#travel"/>
+        <Class IRI="#habit"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#understanding"/>
+        <Class IRI="#human_characterisitics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#usually_brown_hair"/>
+        <Class IRI="#hair_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variable"/>
+        <Class IRI="#sex_drive"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variable_appettite"/>
+        <Class IRI="#appetite_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#variable_sleep"/>
+        <Class IRI="#sleep_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_kapha_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_pitta_kapha_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#creativity"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#InBalanceProperty"/>
+            <Class IRI="#flexibility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#abnormal_movements"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#anxiety"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#OutOfBalanceProperty"/>
+            <Class IRI="#fear"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#blinking"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#breathing"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#cell_movement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#cytoplasmic_movement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#heart_beat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#muscle_movement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#governs"/>
+            <Class IRI="#tissue_movement"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAppetite"/>
+            <Class IRI="#variable_appettite"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#clear"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#cold"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#dry"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#light"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#mobile"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#rough"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasAttribute"/>
+            <Class IRI="#subtle"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#irregular"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasBodyFrame"/>
+            <Class IRI="#thin"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasClimatePrefernce"/>
+            <Class IRI="#prefers_warm"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEmotionType"/>
+            <Class IRI="#primary_emotion_fear"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEvacuation"/>
+            <Class IRI="#constipated"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEvacuation"/>
+            <Class IRI="#erratic"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#grey_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#slate-blue_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasEyeColor"/>
+            <Class IRI="#violet_eyes"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasFertilityType"/>
+            <Class IRI="#poor_fertility"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#coarse_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#curly_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#dark_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasHairType"/>
+            <Class IRI="#dry_hair"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemoryForgetting_Type"/>
+            <Class IRI="#quick_to_forget"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorylearningType"/>
+            <Class IRI="#quick_to_forget"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasMemorylearningType"/>
+            <Class IRI="#quick_to_learn"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSexDriveType"/>
+            <Class IRI="#variable"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#cool_to_touch"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#dark"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSkinType"/>
+            <Class IRI="#tans_too_deeply"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#good_sleep_when_tired"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#poor_sleep"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSleepType"/>
+            <Class IRI="#variable_sleep"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechType"/>
+            <Class IRI="#rambling"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSpeechType"/>
+            <Class IRI="#talkative"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#poor_stamina"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasStaminaType"/>
+            <Class IRI="#tends_to_overexert"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasSweatType"/>
+            <Class IRI="#scanty_in_heat"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasThinkingType"/>
+            <Class IRI="#verbal"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#easy_to_lose"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#hasWeight"/>
+            <Class IRI="#hard_to_gain"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#air"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vata_type"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#predominant_Element"/>
+            <Class IRI="#space"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vatta_pitta_type"/>
+        <Class IRI="#doshas"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#verbal"/>
+        <Class IRI="#thinking_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#violet_eyes"/>
+        <Class IRI="#eye_color"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#vision"/>
+        <Class IRI="#action"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#visual"/>
+        <Class IRI="#thinking_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#warm_to_touch"/>
+        <Class IRI="#skin_related"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water"/>
+        <Class IRI="#pancha_bhootha"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#water_supply"/>
+        <Class IRI="#human_physiology"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weight_related"/>
+        <Class IRI="#characteristics"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wind"/>
+        <Class IRI="#attributes"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#clear"/>
+        <Class IRI="#sticky"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#cold"/>
+        <Class IRI="#hot"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dry"/>
+        <Class IRI="#moist"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dry"/>
+        <Class IRI="#oily"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dull"/>
+        <Class IRI="#sharp"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#dull"/>
+        <Class IRI="#slow"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#gross"/>
+        <Class IRI="#subtle"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#hard"/>
+        <Class IRI="#soft"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#heavy"/>
+        <Class IRI="#light"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#mobile"/>
+        <Class IRI="#static"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#pancha_bhootha"/>
+        <NamedIndividual IRI="#air"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#alcohol"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#artemisia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#bergamot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#birch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tastes"/>
+        <NamedIndividual IRI="#bitter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iris_color"/>
+        <NamedIndividual IRI="#black_color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#black_pepper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nail_characteristics"/>
+        <NamedIndividual IRI="#brittle_nails"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physique"/>
+        <NamedIndividual IRI="#broad"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#coating"/>
+        <NamedIndividual IRI="#brown_coating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iris_color"/>
+        <NamedIndividual IRI="#brown_color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#feelings"/>
+        <NamedIndividual IRI="#calm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#cardamom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#cedar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#chamomile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#changeable"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#cinnamom"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#clary_sage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#clove"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attributes"/>
+        <NamedIndividual IRI="#cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_temperatures"/>
+        <NamedIndividual IRI="#cold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#conservative"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#content"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#coriander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attributes"/>
+        <NamedIndividual IRI="#damp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#disorders"/>
+        <NamedIndividual IRI="#depressed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#drinking_caffiene"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sharpness"/>
+        <NamedIndividual IRI="#dull"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pancha_bhootha"/>
+        <NamedIndividual IRI="#earth"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#eucalyptus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#fennel"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pancha_bhootha"/>
+        <NamedIndividual IRI="#fire"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#frankincense"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#geranium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#ginger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#coating"/>
+        <NamedIndividual IRI="#green_coating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#feelings"/>
+        <NamedIndividual IRI="#happy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weight_related"/>
+        <NamedIndividual IRI="#heavy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#heavy_food"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attributes"/>
+        <NamedIndividual IRI="#hot"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#irregular_meals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#irregular_routine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#jasmine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#jatamansi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#juniper"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#kapha_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#size"/>
+        <NamedIndividual IRI="#large"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#lavender"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#lemon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#lemongrass"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weight_related"/>
+        <NamedIndividual IRI="#light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#iris_color"/>
+        <NamedIndividual IRI="#light_color"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#lime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#memory"/>
+        <NamedIndividual IRI="#long"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#lotus"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physique"/>
+        <NamedIndividual IRI="#medium"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#size"/>
+        <NamedIndividual IRI="#medium_sized"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#weight_related"/>
+        <NamedIndividual IRI="#moderate"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#moist_eye"/>
+        <NamedIndividual IRI="#moist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#motivated"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#color_of_white_of_eye"/>
+        <NamedIndividual IRI="#muddy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#myrrh"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#neroli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#nervous"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_temperatures"/>
+        <NamedIndividual IRI="#normal_temperature"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#moist_eye"/>
+        <NamedIndividual IRI="#not_moist"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sensitivity_to_light"/>
+        <NamedIndividual IRI="#not_sensitive_to_light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#nutmeg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#ojas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#orange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#oregano"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#disorders"/>
+        <NamedIndividual IRI="#overeating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#overeating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#disorders"/>
+        <NamedIndividual IRI="#oversleeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#oversleeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#patchouli"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#peppermint"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pitta_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#disorders"/>
+        <NamedIndividual IRI="#pressurized"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#feelings"/>
+        <NamedIndividual IRI="#pressurized"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#regular_meals"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#regular_routine"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#regular_sleeping"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#rose"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#rosemary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#rosewood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#sage"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tastes"/>
+        <NamedIndividual IRI="#salty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#sandalwood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#feelings"/>
+        <NamedIndividual IRI="#satisfied"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sensitivity_to_light"/>
+        <NamedIndividual IRI="#sensitive_to_light"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#sharpness"/>
+        <NamedIndividual IRI="#sharp"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#memory"/>
+        <NamedIndividual IRI="#short"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#size"/>
+        <NamedIndividual IRI="#small"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#smoking"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nail_characteristics"/>
+        <NamedIndividual IRI="#soft_pink_tender_nails"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tastes"/>
+        <NamedIndividual IRI="#sour"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pancha_bhootha"/>
+        <NamedIndividual IRI="#space"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#disorders"/>
+        <NamedIndividual IRI="#stressed_out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#feelings"/>
+        <NamedIndividual IRI="#stressed_out"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#temperaments"/>
+        <NamedIndividual IRI="#strong_willed"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#tastes"/>
+        <NamedIndividual IRI="#sweet"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#nail_characteristics"/>
+        <NamedIndividual IRI="#thick_strong_oily_nails"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Physique"/>
+        <NamedIndividual IRI="#thin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#habit"/>
+        <NamedIndividual IRI="#traveling"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#tulsi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#vanilla"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#vata_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#vetiver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#body_temperatures"/>
+        <NamedIndividual IRI="#warm"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#pancha_bhootha"/>
+        <NamedIndividual IRI="#water"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#color_of_white_of_eye"/>
+        <NamedIndividual IRI="#white"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#coating"/>
+        <NamedIndividual IRI="#white_coating"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#attributes"/>
+        <NamedIndividual IRI="#windy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#aroma"/>
+        <NamedIndividual IRI="#yiang_yiang"/>
+    </ClassAssertion>
+    <SameIndividual>
+        <NamedIndividual IRI="#air"/>
+        <NamedIndividual IRI="#wind"/>
+    </SameIndividual>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+        <NamedIndividual IRI="#anger"/>
+        <NamedIndividual IRI="#courage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_iris_color"/>
+        <NamedIndividual IRI="#drinking_caffiene"/>
+        <NamedIndividual IRI="#black_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#affection"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#balance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#interest"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#joy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#stability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#color_of_white_of_eye"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#white"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sensitivity_to_light"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#sensitive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sharpness"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#dull"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_element"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#water"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_guna"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#tamas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_iris_color"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#black_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_iris_color"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#blue_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_iris_color"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#pale_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_moist_eye"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#moist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_nail_characteristics"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#thick_strong_oily_nails"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#attachment"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#love"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#conservative"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#content"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#damp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#heavy_food"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#overeating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#oversleeping"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_coating"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#white_coating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_shape"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#broad"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_vital_essence"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#ojas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#depression"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#desire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#withdrawal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#bergamot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#birch"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#black_pepper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#cardamom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#cinnamom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#clove"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#eucalyptus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#ginger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#juniper"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#lemon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#lemongrass"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#oregano"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#rosemary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#sage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#kapha_type_individual"/>
+        <NamedIndividual IRI="#tulsi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#boldness"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#composure"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#patience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sensitivity_to_light"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#sensitive_to_light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sharpness"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#sharp"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_element"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#fire"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_guna"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#sattva"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_moist_eye"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#not_moist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_nail_characteristics"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#soft_pink_tender_nails"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#anger"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#motivated"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#strong_willed"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#alcohol"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#hot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#pressurized"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#smoking"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#stressed_out"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_coating"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#brown_coating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_coating"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#green_coating"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_shape"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#medium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_vital_essence"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#tejas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#impatience"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#overly_critical"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#passivity"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#artemisia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#chamomile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#clary_sage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#coriander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#fennel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#geranium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#jasmine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#lavender"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#lotus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#peppermint"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#rose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#rosewood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#sandalwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#vetiver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#pitta_type_individual"/>
+        <NamedIndividual IRI="#yiang_yiang"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#bergamot"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#clary_sage"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#coriander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#fennel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#frankincense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#geranium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#jasmine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#jatamansi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#lavender"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#lotus"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#neroli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#patchouli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#rose"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#tridosha_type_individual"/>
+        <NamedIndividual IRI="#sandalwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sensitivity_to_light"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#not_sensitive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#eye_sharpness"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#dull"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_body_temperature"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#cold"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_element"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#wind"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_guna"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#rajas"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_iris_color"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#brown_color"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_moist_eye"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#not_moist"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_nail_characteristics"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#brittle_nails"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#fear"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_physique"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#thin"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#adaptability"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#changeable"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_temperament"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#nervous"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#drinking_caffiene"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#irregular_meals"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#irregular_routine"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#traveling"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#windy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_tongue_shape"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#narrow"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_vital_essence"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#prana"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has_weight"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#light"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#anxiety"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#confusion"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#imbalanced_agni"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#indecisive"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#cardamom"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#cedar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#frankincense"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#geranium"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#jatamansi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#lavender"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#lime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#myrrh"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#neroli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#nutmeg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#orange"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#patchouli"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#sandalwood"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#vanilla"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <NamedIndividual IRI="#vata_type_individual"/>
+        <NamedIndividual IRI="#vetiver"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasAppetite"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasBodyFrame"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasClimatePrefernce"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEmotionType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEvacuation"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasEyeColor"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasFertilityType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasHairType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMemoryForgetting_Type"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasMemorylearningType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSexDriveType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSkinType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSleepType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSpeechType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasStaminaType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasSweatType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasThinkingType"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWeight"/>
+        <ObjectProperty IRI="#hasCharacteristic"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#balanced_agni"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_body_part"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_body_temperature"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_body_type"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_disorder"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_element"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_eye_size"/>
+        <Class IRI="#eyes"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_feeling"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_guna"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_habit"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_memory"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_physique"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_temperament"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_vital_essence"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_weight"/>
+        <Class IRI="#person"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_body_part"/>
+        <Class IRI="#body_part"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_body_temperature"/>
+        <Class IRI="#body_temperatures"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_body_type"/>
+        <Class IRI="#doshas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_disorder"/>
+        <Class IRI="#disorders"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_element"/>
+        <Class IRI="#pancha_bhootha"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_eye_size"/>
+        <Class IRI="#size"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_feeling"/>
+        <Class IRI="#feelings"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_guna"/>
+        <Class IRI="#gunas"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_habit"/>
+        <Class IRI="#habit"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_memory"/>
+        <Class IRI="#memory"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_negative_characteristics"/>
+        <Class IRI="#characteristics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_physique"/>
+        <Class IRI="#Physique"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_positive_characteristics"/>
+        <Class IRI="#characteristics"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_temperament"/>
+        <Class IRI="#temperaments"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_things_to_avoid"/>
+        <Class IRI="#things_to_avoid"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_weight"/>
+        <Class IRI="#weight_related"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#needs_aroma_type"/>
+        <Class IRI="#aroma"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:alias"/>
+        <IRI>#doshas</IRI>
+        <IRI>#Energy_Principles</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:alias"/>
+        <IRI>#doshas</IRI>
+        <IRI>#functional_Principles</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#doshas</IRI>
+        <Literal>Dosha means Organization. As long as is normal, they maintain harmony.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#kapha_type</IRI>
+        <Literal>Energy of lubrication and structure.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#ojas</IRI>
+        <Literal>provides peace, calm and contentment</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#pitta_type</IRI>
+        <Literal>Energy of transformation, digestion or metabolism</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prana</IRI>
+        <Literal>helps emotional harmony, balance and creativity</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:alias"/>
+        <IRI>#space</IRI>
+        <IRI>#ether</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#tejas</IRI>
+        <Literal>courage, intellect, drive, radiance</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#vata_type</IRI>
+        <Literal>Energy of Movement.</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
