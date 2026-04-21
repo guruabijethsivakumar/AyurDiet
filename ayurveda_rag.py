@@ -10,7 +10,7 @@ api_key = os.environ.get("GOOGLE_API_KEY")
 if not api_key:
     raise ValueError("GOOGLE_API_KEY not set. Please set it using $env:GOOGLE_API_KEY = 'your_key' in PowerShell.")
 genai.configure(api_key=api_key)
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-2.5-flash')
 
 # Step 2: Parse and Index Data (Manual Rules)
 def build_index(excel_file='indb.xlsx', index_path='ayurveda_index'):
@@ -20,6 +20,20 @@ def build_index(excel_file='indb.xlsx', index_path='ayurveda_index'):
         "amla (sour, pacifies vata but aggravates pitta/kapha)",
         "ushna (heating, aggravates pitta)",
         "sheeta (cooling, pacifies pitta)",
+        "doshas: Dosha means Organization. As long as is normal, they maintain harmony.",
+        "kapha_type: Energy of lubrication and structure.",
+        "ojas: provides peace, calm and contentment",
+        "pitta_type: Energy of transformation, digestion or metabolism",
+        "prana: helps emotional harmony, balance and creativity",
+        "tejas: courage, intellect, drive, radiance",
+        "vata_type: Energy of Movement.",
+        "Hot tea has rasa tikta and katu, virya ushna, vipaka katu, aggravates vata and pitta, pacifies kapha",
+        "Instant coffee has rasa tikta and katu, virya ushna, vipaka katu, aggravates vata and pitta",
+        "Iced tea has rasa tikta, virya sheeta, vipaka katu, aggravates vata",
+        "Fruit punch has rasa madhura and amla, virya sheeta, vipaka madhura, pacifies vata, aggravates pitta",
+        "Lemonade has rasa amla, virya sheeta, vipaka amla, pacifies vata, aggravates pitta and kapha",
+        "Coco pine has rasa madhura, virya sheeta, vipaka madhura, pacifies pitta",
+        "Banana milk has rasa madhura, virya sheeta, vipaka madhura, pacifies vata and pitta, aggravates kapha",
     ]
     
     # Parse Excel
@@ -101,48 +115,7 @@ if __name__ == "__main__":
             'season': 'Summer',
             'preferences': 'Vegetarian, no dairy'
         },
-        {
-            'age': 30,
-            'gender': 'Female',
-            'weight': 55,
-            'height': 160,
-            'prakriti': 'Vata',
-            'health': 'Occasional dry skin',
-            'activity': 'sedentary',
-            'sleep': 'irregular',
-            'stress': 'high',
-            'region': 'North India',
-            'season': 'Winter',
-            'preferences': 'Non-vegetarian, prefers warm foods'
-        },
-        {
-            'age': 40,
-            'gender': 'Male',
-            'weight': 85,
-            'height': 170,
-            'prakriti': 'Kapha',
-            'health': 'Mild congestion',
-            'activity': 'active',
-            'sleep': 'regular',
-            'stress': 'low',
-            'region': 'West India',
-            'season': 'Monsoon',
-            'preferences': 'Vegetarian, light meals'
-        },
-        {
-            'age': 28,
-            'gender': 'Female',
-            'weight': 65,
-            'height': 165,
-            'prakriti': 'Pitta-Kapha',
-            'health': 'Occasional acidity',
-            'activity': 'moderate',
-            'sleep': 'regular',
-            'stress': 'moderate',
-            'region': 'East India',
-            'season': 'Spring',
-            'preferences': 'Vegetarian, no spicy food'
-        }
+       
     ]
 
     for user_inputs in user_inputs_list:

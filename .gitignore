@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+
+# Vector DB / FAISS
+*_vector_db/
+*_index/
+
+# Results
+*.csv
+
+# Env
+.env

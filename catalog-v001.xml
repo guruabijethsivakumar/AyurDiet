@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <uri id="Imports Wizard Entry" name="http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17" uri="doshas.owl"/>
+    <group id="Folder Repository, directory=, recursive=true, Auto-Update=true, version=2" prefer="public" xml:base="">
+        <uri id="Automatically generated entry, Timestamp=1765207998275" name="duplicate:http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17" uri="doshas.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1765207998275" name="duplicate:http://www.semanticweb.org/lenovo/ontologies/2022/6/untitled-ontology-17" uri="dosha_ontology.owl"/>
+        <uri id="Automatically generated entry, Timestamp=1765207998275" name="http://www.semanticweb.org/priya/ontologies/2025/11/untitled-ontology-3/" uri="updated_ontology.rdf"/>
+    </group>
+</catalog>
