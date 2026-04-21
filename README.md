@@ -353,12 +353,6 @@ Evaluation results are stored in CSV files:
 
 ---
 
-## Contributors
-
-- **Guru Abijeth S** — RAG pipeline, Knowledge Graph design, LLM integration, Evaluation
-
----
-
 ## License
 
 This project was developed as part of the **Smart India Hackathon (SIH)**. All rights reserved.
