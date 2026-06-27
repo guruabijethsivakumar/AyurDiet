@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AyurDiet — Ayurvedic Personalised Diet Recommendation System</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="static/style.css">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Marked.js for Rendering Markdown to Beautiful HTML -->
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    <!-- Google Identity Services SDK for Google Sign-In -->
+    <script src="https://accounts.google.com/gsi/client"></script>
+</head>
+<body>
+
+    <!-- Dietitian Login Screen -->
+    <div id="login-screen" class="login-wrapper">
+        <div class="login-card">
+            <div class="login-header">
+                <div class="login-logo-icon"><i class="fa-solid fa-house-medical"></i></div>
+                <h2>AyurDiet Portal</h2>
+                <p>Dietitian Clinical Authentication</p>
+            </div>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-username">Dietitian Username</label>
+                    <input type="text" id="login-username" placeholder="e.g. dietitian" required autocomplete="username">
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" placeholder="••••••••" required autocomplete="current-password">
+                </div>
+                <button type="submit" class="btn btn-primary" id="login-submit-btn">
+                    <i class="fa-solid fa-lock-open"></i> Access System
+                </button>
+                <div class="login-credentials-help">
+                    <span><i class="fa-solid fa-info-circle"></i> Demo Credentials:</span>
+                    <code>Username: dietitian</code>
+                    <code>Password: password123</code>
+                </div>
+                
+                <!-- Google Sign-In Button Container -->
+                <div class="login-divider" id="login-divider" style="display: none;">
+                    <span>OR</span>
+                </div>
+                <div id="google-signin-btn" class="google-btn-container" style="display: none;"></div>
+
+                <div id="login-error" class="login-error-alert" style="display: none;">
+                    <i class="fa-solid fa-circle-exclamation"></i> Incorrect username or password.
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Main Dashboard Container -->
+    <div class="container" id="app-dashboard" style="display: none;">
+        <!-- Top Navigation Header -->
+        <header>
+            <div class="logo-container">
+                <div class="logo-icon"><i class="fa-solid fa-leaf"></i></div>
+                <div class="logo-text">AyurDiet <span class="logo-clinical-badge">Clinical</span></div>
+            </div>
+            <div class="header-right-group">
+                <div class="header-badge">
+                    <i class="fa-solid fa-circle-nodes"></i> Hybrid Graph RAG + Vector RAG
+                </div>
+                <div class="dietitian-badge" id="dietitian-profile">
+                    <i class="fa-solid fa-user-md"></i>
+                    <span id="dietitian-name-display">Dr. Sarah</span>
+                    <button class="logout-btn" id="logout-btn" title="Logout">
+                        <i class="fa-solid fa-right-from-bracket"></i>
+                    </button>
+                </div>
+            </div>
+        </header>
+
+        <!-- Main Workspace Dashboard -->
+        <main class="dashboard">
+            
+            <!-- Left Side: User Configuration Form -->
+            <section class="card">
+                <div class="form-title">
+                    <span>Enter Patient Profile Details</span>
+                    <button class="fill-demo-btn" type="button" id="fill-demo">
+                        <i class="fa-solid fa-magic-wand-sparkles"></i> Demo Data
+                    </button>
+                </div>
+                
+                <form id="diet-form">
+                    
+                    <!-- BMI Preview Card (Dynamic calculations) -->
+                    <div class="bmi-preview-card">
+                        <div class="bmi-metrics">
+                            <span class="bmi-label">Calculated BMI</span>
+                            <span id="bmi-display-val" class="bmi-value-display">--</span>
+                        </div>
+                        <span id="bmi-badge-display" class="bmi-badge">No Data</span>
+                    </div>
+
+                    <!-- Section: Biometrics & Prakriti -->
+                    <div class="section-divider">1. Patient Profile & Prakriti</div>
+
+                    <div class="form-group">
+                        <label for="patient-name">Patient Full Name</label>
+                        <input type="text" id="patient-name" placeholder="e.g. Rahul Sharma" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="prakriti">Prakriti (Body Constitution)</label>
+                        <select id="prakriti" required>
+                            <option value="" disabled selected>Select dominant Dosha...</option>
+                            <option value="Vata">Vata (Wind/Space - Cold, Dry, Light)</option>
+                            <option value="Pitta">Pitta (Fire/Water - Hot, Sharp, Sour)</option>
+                            <option value="Kapha">Kapha (Water/Earth - Heavy, Cool, Moist)</option>
+                            <option value="Vata-Pitta">Vata-Pitta (Dual)</option>
+                            <option value="Pitta-Kapha">Pitta-Kapha (Dual)</option>
+                            <option value="Vata-Kapha">Vata-Kapha (Dual)</option>
+                            <option value="Tridoshic">Tridoshic (Vata-Pitta-Kapha balanced)</option>
+                        </select>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="age">Age (years)</label>
+                            <input type="number" id="age" min="1" max="120" placeholder="e.g. 25" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="gender">Gender</label>
+                            <select id="gender" required>
+                                <option value="" disabled selected>Select...</option>
+                                <option value="Male">Male</option>
+                                <option value="Female">Female</option>
+                                <option value="Other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="weight">Weight (kg)</label>
+                            <input type="number" id="weight" min="1" max="300" step="0.1" placeholder="e.g. 70" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="height">Height (cm)</label>
+                            <input type="number" id="height" min="30" max="250" step="0.1" placeholder="e.g. 175" required>
+                        </div>
+                    </div>
+
+                    <!-- Section: Lifestyle & Environment -->
+                    <div class="section-divider">2. Lifestyle & Environment</div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="activity">Activity Level</label>
+                            <select id="activity">
+                                <option value="sedentary">Sedentary</option>
+                                <option value="moderate" selected>Moderate Activity</option>
+                                <option value="active">High Activity</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="sleep">Sleep Pattern</label>
+                            <select id="sleep">
+                                <option value="regular" selected>Regular (7-8 hours)</option>
+                                <option value="irregular">Irregular / Insufficient</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="stress">Stress Level</label>
+                            <select id="stress">
+                                <option value="low" selected>Low</option>
+                                <option value="moderate">Moderate</option>
+                                <option value="high">High</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="season">Current Season</label>
+                            <select id="season">
+                                <option value="All seasons">All Seasons</option>
+                                <option value="Summer" selected>Summer (Grishma)</option>
+                                <option value="Winter">Winter (Hemanta/Shishira)</option>
+                                <option value="Monsoon">Monsoon (Varsha)</option>
+                                <option value="Spring">Spring (Vasanta)</option>
+                                <option value="Autumn">Autumn (Sharad)</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="region">Geographical Region</label>
+                        <select id="region">
+                            <option value="Pan India" selected>Pan-India</option>
+                            <option value="South India">South India</option>
+                            <option value="North India">North India</option>
+                            <option value="East India">East India</option>
+                            <option value="West India">West India</option>
+                            <option value="Global / Western influenced Urban India">Western Urbanized / Global</option>
+                        </select>
+                    </div>
+
+                    <!-- Section: Diet & Health Goals -->
+                    <div class="section-divider">3. Diet & Health Preferences</div>
+
+                    <div class="form-group">
+                        <label for="preferences">Dietary Restrictions</label>
+                        <input type="text" id="preferences" placeholder="e.g. Vegetarian, dairy-free" value="Vegetarian">
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="deficiency">Nutrient Deficiency</label>
+                            <select id="deficiency">
+                                <option value="none" selected>None</option>
+                                <option value="iron">Iron (Anaemia focus)</option>
+                                <option value="calcium">Calcium</option>
+                                <option value="protein">Protein</option>
+                                <option value="vitamin D">Vitamin D</option>
+                                <option value="zinc">Zinc</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="health">Health Conditions</label>
+                            <input type="text" id="health" placeholder="e.g. none, Anaemia" value="None">
+                        </div>
+                    </div>
+
+                    <!-- Submit Buttons -->
+                    <div class="btn-group">
+                        <button class="btn btn-primary" type="submit" id="submit-btn">
+                            <i class="fa-solid fa-rotate"></i> Generate Diet Plan
+                        </button>
+                    </div>
+                </form>
+            </section>
+
+            <!-- Right Side: Recommendation Results Viewport -->
+            <section class="card results-container">
+                <div class="results-header">
+                    <h2 class="results-title">
+                        <i class="fa-solid fa-utensils"></i> Personalised Diet Plan
+                    </h2>
+                    <div class="results-actions">
+                        <button class="action-btn" id="print-btn" disabled>
+                            <i class="fa-solid fa-print"></i> Print / PDF
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Initial Placeholder State -->
+                <div class="results-placeholder" id="placeholder-box">
+                    <div class="placeholder-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                    <h3>Plan Will Appear Here</h3>
+                    <p class="placeholder-text">Adjust the biometric parameters and click "Generate Diet Plan" to query the hybrid RAG system and generate your plan.</p>
+                </div>
+
+                <!-- Plan Content viewport (Hidden initially) -->
+                <div class="results-content" id="results-box">
+                    <div class="diet-plan-viewport" id="diet-plan-content">
+                        <!-- Marked.js will render markdown here -->
+                    </div>
+                </div>
+            </section>
+
+        </main>
+    </div>
+
+    <!-- Full Screen Loading Overlay with progress steps -->
+    <div class="loading-overlay" id="loading-spinner">
+        <div class="loading-container">
+            <span class="leaf-spinner"><i class="fa-solid fa-leaf"></i></span>
+            <h2 class="loading-title">Compiling Diet Plan</h2>
+            <div class="loading-step" id="loading-step-text">Initializing parameters...</div>
+            <div class="loading-progress-bar">
+                <div class="loading-progress-fill" id="loading-progress"></div>
+            </div>
+            <p class="loading-subtitle">Querying Neo4j Knowledge Graph & FAISS Vector DB...</p>
+        </div>
+    </div>
+
+    <!-- App Logic Scripts -->
+    <script>window.__GOOGLE_CLIENT_ID__ = "__GOOGLE_CLIENT_ID__";</script>
+    <script src="static/app.js"></script>
+</body>
+</html>

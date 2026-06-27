@@ -2,6 +2,10 @@ import os
 from datetime import datetime
 from typing import List, Dict
 
+from dotenv import load_dotenv
+# Load environment variables from .env file
+load_dotenv()
+
 import google.generativeai as genai
 from neo4j import GraphDatabase
 from langchain_huggingface import HuggingFaceEmbeddings
@@ -17,16 +21,15 @@ from langchain_text_splitters import CharacterTextSplitter
 api_key = os.environ.get("GOOGLE_API_KEY")
 if not api_key:
     raise ValueError(
-        "GOOGLE_API_KEY not set. Please set it using "
-        "$env:GOOGLE_API_KEY = 'your_key' in PowerShell."
+        "GOOGLE_API_KEY not set. Please set it in a .env file or in your environment."
     )
 genai.configure(api_key=api_key)
 llm_model = genai.GenerativeModel("models/gemini-2.5-flash")
 
 # --- Neo4j ---
-NEO4J_URI = "bolt://localhost:7687"
-NEO4J_USER = "neo4j"
-NEO4J_PASSWORD = "password"  # <<< CHANGE THIS
+NEO4J_URI = os.environ.get("NEO4J_URI", "bolt://localhost:7687")
+NEO4J_USER = os.environ.get("NEO4J_USER", "neo4j")
+NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD", "password")
 driver = GraphDatabase.driver(NEO4J_URI, auth=(NEO4J_USER, NEO4J_PASSWORD))
 
 # --- Vector DB ---
@@ -393,6 +396,7 @@ Use ONLY these foods from the Neo4j knowledge graph
 {foods_text}
 
 User profile:
+- Patient Name: {user_inputs.get('patient_name', 'Anonymous')}
 - Age: {user_inputs['age']}
 - Gender: {user_inputs['gender']}
 - Weight: {user_inputs['weight']} kg
@@ -413,17 +417,32 @@ Instructions:
 2. Respect allergies and exceptions: if a food has 'Exceptions', use it carefully and explain in the rationale.
 3. Use rasa, virya, and vipaka information to ensure the plan pacifies the dominant dosha ({user_inputs['prakriti']}).
 4. Aim for approximately {caloric_needs} kcal/day, adjusted for BMI and activity.
-5. Highlight foods that help correct the nutrient deficiency ({user_inputs['nutrient_deficiency']})
-   using the nutrients given (iron, protein, calcium, etc.).
-6. Produce a 1-day diet plan with: breakfast, mid-morning, lunch, evening snack, dinner.
-7. For each meal, list:
-   - foods and approximate portion
-   - rough calorie estimate
-   - key nutrients (especially related to the deficiency)
-   - Ayurvedic rationale (dosha balancing, rasa/virya/vipaka, and season/region fit).
-8. Conclude with a short summary of how the plan supports the user's dosha balance and deficiency correction.
+5. Highlight foods that help correct the nutrient deficiency ({user_inputs['nutrient_deficiency']}) using the nutrients given.
 
-Return the answer in a clear, structured, human-readable format.
+Please structure the final output into two distinct, clearly labeled sections:
+
+---
+
+# SECTION 1: YOUR DIET PLAN (For the Patient)
+*Design this for a common person to read and execute easily. Keep it clean, simple, and encouraging. Start this section with a personalized header addressing the patient by name (e.g. "Ayurvedic Diet Prescription for [Patient Name]").*
+
+*   **Daily Meal Table / Timeline:** Create a simple table or timeline showing:
+    *   **Meal (Time)**: Breakfast, Mid-Morning, Lunch, Evening Snack, Dinner.
+    *   **What to Eat (Food Name)**: Clean up the database IDs into natural, friendly food names (e.g. use "Fruit Salad" instead of `Fruit_salad_Phalon_ka_salaad`, and "Oats & Chia Smoothie" instead of `Apple_oats_chia_seed_smoothie`).
+    *   **Serving / Portion Size**: e.g., "1 Bowl", "1 Glass", "2 Cups". Use common terms.
+*   **Simple Actionable Guidelines:** 3-4 bullet points in plain English telling them how to eat (e.g., "Eat in a quiet space", "Avoid cold drinks right after meals", "Keep hydrated"). Do NOT mention complex terms like Rasa, Virya, or Vipaka in this section.
+
+---
+
+# SECTION 2: DIETITIAN'S CLINICAL RATIONALE (For the Practitioner)
+*Design this for professional dietitians/practitioners. Include all technical, chemical, and Ayurvedic details.*
+
+*   **Total Daily Estimates:** Total Calories (kcal), Carbohydrates (g), Protein (g), Fat (g), and the specific targeted nutrient (e.g., Iron in mg).
+*   **Meal-by-Meal Technical Breakdown:** For each of the 5 meals, specify:
+    *   **Portion Size & Calories (kcal)**
+    *   **Key Nutrient Values** (especially highlighting the targeted deficiency correction)
+    *   **Ayurvedic Rationale:** Detailed explanation of the dosha balancing mechanism, Rasa (taste), Guna (quality), Virya (potency), and Vipaka (post-digestive effect) of the selected foods, and why they fit the current season ({user_inputs['season']}) and region ({user_inputs['region']}).
+*   **Formulation Rationale:** A short summary of how the overall formula addresses the deficiency ({user_inputs['nutrient_deficiency']}) while maintaining Prakriti ({user_inputs['prakriti']}) equilibrium.
 """
 
     response = llm_model.generate_content(prompt)
