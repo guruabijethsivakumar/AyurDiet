@@ -1,31 +1,34 @@
 # 🌿 AyurDiet — Ayurvedic Personalised Diet Recommendation System
 
-> **Smart India Hackathon (SIH) Project**  
-> A hybrid **Graph RAG + Vector RAG** pipeline that generates personalised, Ayurveda-grounded diet plans using a Neo4j Knowledge Graph, FAISS Vector Store, and Google Gemini / Mistral LLMs.
+> **Smart India Hackathon (SIH) Project**
+> A hybrid **Graph RAG + Vector RAG** pipeline that generates personalised, Ayurveda-grounded diet plans using a Neo4j Knowledge Graph, FAISS Vector Store, and Google Gemini LLM — now with a **full clinical web portal** featuring Dietitian authentication, Google Sign-In, and patient profile management.
 
 ---
 
 ## 📖 Table of Contents
 
 - [Overview](#overview)
+- [What's New — Clinical Web Portal](#whats-new--clinical-web-portal)
 - [Architecture](#architecture)
 - [Project Structure](#project-structure)
 - [Tech Stack](#tech-stack)
 - [Setup & Installation](#setup--installation)
 - [Configuration](#configuration)
 - [How to Run](#how-to-run)
+- [Web Portal Usage](#web-portal-usage)
 - [Evaluation Pipeline](#evaluation-pipeline)
 - [Data](#data)
 - [Key Concepts](#key-concepts)
 - [Results](#results)
-- [Contributors](#contributors)
+- [License](#license)
 
 ---
 
 ## Overview
 
-**AyurDiet** bridges traditional Ayurvedic wisdom with modern AI to generate personalised 1-day diet plans. Given a user's:
+**AyurDiet** bridges traditional Ayurvedic wisdom with modern AI to generate personalised 1-day diet plans. Given a patient's:
 
+- **Patient Name** (new — personalised clinical output)
 - **Prakriti** (body constitution: Vata / Pitta / Kapha)
 - **Age, Gender, Weight, Height** (BMI auto-computed)
 - **Region** (South India, North India, Pan-India, etc.)
@@ -33,22 +36,55 @@
 - **Health conditions, activity level, sleep, stress**
 - **Dietary preferences & nutrient deficiencies**
 
-…the system retrieves contextually relevant foods from a **Neo4j Knowledge Graph** (Graph RAG) and **Ayurvedic rule embeddings** from a **FAISS Vector Store** (Vector RAG), then feeds them to an LLM to generate a structured, rationale-backed diet plan.
+…the system retrieves contextually relevant foods from a **Neo4j Knowledge Graph** (Graph RAG) and **Ayurvedic rule embeddings** from a **FAISS Vector Store** (Vector RAG), then feeds them to an LLM to generate a structured, rationale-backed, **patient-personalised** diet plan.
+
+---
+
+## ✨ What's New — Clinical Web Portal
+
+The project now ships a **full-featured clinical web portal** built with Flask, HTML, CSS, and JavaScript:
+
+### 🔐 Dietitian Authentication
+- **Login Page** — Professional hospital-themed portal with username/password authentication.
+- **Google Sign-In** — OAuth 2.0 integration via Google Identity Services. Dietitians can sign in using their Google account.
+- **Session management** — Authentication state is stored securely in `localStorage` with a logout button always visible in the dashboard header.
+- **Demo credentials** — `dietitian` / `password123` for quick access.
+
+### 👤 Patient Profile Management
+- **Patient Name** field added to the clinical form. The patient's name is passed through the full pipeline and embedded in the LLM prompt, resulting in personalised prescriptions (e.g. *"Ayurvedic Diet Prescription for Rahul Sharma"*).
+- All other biometric, lifestyle, and dietary inputs remain as before.
+
+### 🏥 Hospital-Themed UI
+- Completely redesigned from a dark neon theme to a clean **white and clinical teal-green** hospital aesthetic.
+- Premium typography, smooth animations, BMI calculator, and print-to-PDF support.
+
+### 🌐 Web API Endpoints
+
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| `GET`  | `/` | Serves the clinical web portal |
+| `GET`  | `/api/config` | Returns `GOOGLE_CLIENT_ID` for Sign-In |
+| `POST` | `/api/login` | Standard username/password auth |
+| `POST` | `/api/login-google` | Google OAuth token verification |
+| `POST` | `/api/generate` | Generates the Ayurvedic diet plan |
 
 ---
 
 ## Architecture
 
 ```
-User Profile Input
-       │
-       ▼
+Dietitian Login (Credentials / Google OAuth)
+        │
+        ▼
+    Dashboard — Enter Patient Name + Profile
+        │
+        ▼
 ┌──────────────────────────────────────────────────────┐
 │                 HYBRID RAG PIPELINE                  │
 │                                                      │
 │  ┌──────────────────┐    ┌────────────────────────┐  │
 │  │  Vector RAG      │    │  Graph RAG             │  │
-│  │  (FAISS)         │    │  (Neo4j)               │  │
+│  │  (FAISS)         │    │  (Neo4j Aura Cloud)    │  │
 │  │                  │    │                        │  │
 │  │  Ayurvedic Rules │    │  FoodNode graph with   │  │
 │  │  (rasa, virya,   │    │  dosha, region, season │  │
@@ -65,13 +101,12 @@ User Profile Input
               ┌──────────────────┐
               │  LLM Generation  │
               │  Gemini 2.5 Flash│
-              │  or Mistral 7B   │
               └────────┬─────────┘
                        │
                        ▼
-          Personalised 1-Day Diet Plan
-   (Breakfast → Mid-Morning → Lunch → Snack → Dinner)
-   with Ayurvedic rationale & nutrient breakdown
+      Personalised 1-Day Diet Plan for [Patient Name]
+   Section 1: Patient-facing meal table & guidelines
+   Section 2: Dietitian clinical rationale & nutrients
 ```
 
 ---
@@ -79,55 +114,43 @@ User Profile Input
 ## Project Structure
 
 ```
-sih/
-├── graphRag_llm.py             # ✅ Main: Hybrid Graph+Vector RAG with Gemini
-├── ayurveda_rag.py             # Vector RAG pipeline (FAISS + Excel + Gemini)
-├── vector_rag.py               # Pure Vector RAG with Ollama (Mistral) + evaluation
-├── vector_rag_bge.py           # Vector RAG using BGE embedding model variant
+AyurDiet/
+├── app.py                       # ✅ Flask web server — API endpoints & auth
+├── graphRag_llm.py              # ✅ Main: Hybrid Graph+Vector RAG with Gemini
 │
-├── DeepEval.py                 # Graph RAG evaluation using Ollama (Mistral)
+├── static/
+│   ├── index.html               # ✅ Clinical web portal (login + dashboard)
+│   ├── style.css                # ✅ Hospital-themed white & green UI
+│   └── app.js                   # ✅ Auth logic, Google Sign-In, form handling
 │
-├── add_ayurveda.py             # Data enrichment: adds Ayurvedic attributes via Mistral
-├── add_exception.py            # Adds virya/vipaka exception rules to dataset
-├── virya_vipaka_exceptions.py  # Exception handling for Ayurvedic properties
+├── ayurveda_rag.py              # Vector RAG pipeline (FAISS + Excel + Gemini)
+├── vector_rag.py                # Pure Vector RAG with Ollama (Mistral) + evaluation
+├── vector_rag_bge.py            # Vector RAG using BGE embedding model variant
 │
-├── generate_food_vector.py     # Builds FAISS food vector DB from dataset
-├── generate_graph_vector.py    # Builds FAISS vector DB from ontology/graph data
-├── vector_index_bge.py         # Builds FAISS index using BGE embeddings
+├── DeepEval.py                  # Graph RAG evaluation using Ollama (Mistral)
 │
-├── foodnx_to_neo4j.py          # Imports food knowledge graph (GEXF) into Neo4j
-├── ontologynx_to_neo4j.py      # Imports ontology graph (GEXF) into Neo4j
+├── add_ayurveda.py              # Data enrichment: adds Ayurvedic attributes via Mistral
+├── add_exception.py             # Adds virya/vipaka exception rules to dataset
+├── virya_vipaka_exceptions.py   # Exception handling for Ayurvedic properties
 │
-├── ollama_wrapper.py           # Utility wrapper for Ollama LLM calls
-├── check.py                    # Quick sanity check script
-├── modelcheck.py               # Model connectivity check
-├── viualization.py             # Graph visualization utilities
+├── generate_food_vector.py      # Builds FAISS food vector DB from dataset
+├── generate_graph_vector.py     # Builds FAISS vector DB from ontology/graph data
 │
-├── indb.xlsx                   # Raw Indian food database (~1000+ items)
-├── indb_filled_ayurveda.xlsx   # Enriched dataset with Ayurvedic attributes
+├── foodnx_to_neo4j.py           # Imports food knowledge graph (GEXF) into Neo4j
+├── ontologynx_to_neo4j.py       # Imports ontology graph (GEXF) into Neo4j
+│
+├── indb.xlsx                    # Raw Indian food database (~1000+ items)
+├── indb_filled_ayurveda.xlsx    # Enriched dataset with Ayurvedic attributes
 ├── foods_with_ayurveda_details.csv  # Processed food-Ayurveda mapping
 │
-├── food_kg.gexf                # Food Knowledge Graph (NetworkX GEXF)
-├── ontology_kg.gexf            # Ayurveda Ontology Graph (NetworkX GEXF)
-├── dosha_ontology.owl          # OWL Ontology for Dosha concepts
-├── doshas.owl                  # Extended Dosha OWL ontology
-├── check.rdf                   # RDF representation of ontology
-├── updated_ontology.rdf        # Updated RDF ontology
+├── food_kg.gexf                 # Food Knowledge Graph (NetworkX GEXF)
+├── ontology_kg.gexf             # Ayurveda Ontology Graph (NetworkX GEXF)
+├── dosha_ontology.owl           # OWL Ontology for Dosha concepts
 │
-├── ayurveda_index/             # FAISS index for Ayurvedic rules (MiniLM)
-├── ayurveda_rules_index/       # FAISS index for ontology rules (Graph RAG)
-├── food_vector_db/             # FAISS food vector DB (MiniLM)
-├── food_vector_db_bge/         # FAISS food vector DB (BGE model)
-├── combined_vector_db/         # Combined FAISS index
-├── ontology_vector_db/         # FAISS index from ontology graph
+├── ayurveda_rules_index/        # FAISS index for Ayurvedic rules (MiniLM)
 │
-├── deepeval_results.csv        # Graph RAG evaluation scores
-├── vector_eval_results.csv     # Vector RAG evaluation scores (MiniLM)
-├── vector_eval_results_bge.csv # Vector RAG evaluation scores (BGE)
-├── graph_retrieval_metrics.csv # Graph retrieval performance metrics
-│
-├── knowledge-graph-llms/       # Reference submodule / research material
-└── pellet/                     # Pellet OWL reasoner binaries
+├── .env                         # Environment configuration (see below)
+└── requirements.txt             # Python dependencies
 ```
 
 ---
@@ -136,9 +159,12 @@ sih/
 
 | Component | Technology |
 |---|---|
-| **Knowledge Graph** | Neo4j (Bolt) + NetworkX (GEXF) |
+| **Web Framework** | Flask (Python) |
+| **Frontend** | HTML5, Vanilla CSS, JavaScript (ES6+) |
+| **Authentication** | Google Identity Services (OAuth 2.0) + custom credential auth |
+| **Knowledge Graph** | Neo4j Aura Cloud (Bolt) + NetworkX (GEXF) |
 | **Vector Store** | FAISS (Facebook AI Similarity Search) |
-| **Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` / `BAAI/bge-base-en` |
+| **Embeddings** | `sentence-transformers/all-MiniLM-L6-v2` |
 | **Primary LLM** | Google Gemini 2.5 Flash (`google-generativeai`) |
 | **Alternative LLM** | Mistral 7B via Ollama (local) |
 | **Ontology** | OWL / RDF (Pellet Reasoner) |
@@ -154,28 +180,35 @@ sih/
 ### Prerequisites
 
 - Python 3.10+
-- Neo4j Desktop or Neo4j Community Server running locally
-- [Ollama](https://ollama.ai/) installed (for local Mistral inference)
-- Google Gemini API key
+- Neo4j Aura Cloud account (or local Neo4j Community Server)
+- Google Gemini API key ([Get it at AI Studio](https://aistudio.google.com/))
+- *(Optional)* Google Cloud project with OAuth 2.0 credentials for Google Sign-In
+- *(Optional)* [Ollama](https://ollama.ai/) installed for local Mistral inference
 
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/sih.git
-cd sih
+git clone https://github.com/guruabijethsivakumar/AyurDiet.git
+cd AyurDiet
 ```
 
 ### 2. Install Python Dependencies
 
 ```bash
-pip install google-generativeai neo4j langchain langchain-huggingface \
+pip install -r requirements.txt
+```
+
+Or manually:
+
+```bash
+pip install flask google-generativeai neo4j langchain langchain-huggingface \
             langchain-community faiss-cpu sentence-transformers \
-            pandas openpyxl ollama networkx
+            pandas openpyxl python-dotenv networkx
 ```
 
 ### 3. Set Up Neo4j
 
-1. Start your Neo4j instance (default: `bolt://localhost:7687`)
+1. Create a free [Neo4j Aura](https://neo4j.com/cloud/platform/aura-graph-database/) instance.
 2. Import the food knowledge graph:
    ```bash
    python foodnx_to_neo4j.py
@@ -195,35 +228,53 @@ ollama pull mistral:7b
 
 ## Configuration
 
-### Environment Variables
+Create a `.env` file in the project root:
 
-```powershell
-# PowerShell
-$env:GOOGLE_API_KEY = "your_gemini_api_key_here"
+```env
+# Google Gemini API Key (required)
+GOOGLE_API_KEY=your_gemini_api_key_here
+
+# Neo4j Aura Cloud credentials (required)
+NEO4J_URI=neo4j+s://your-instance.databases.neo4j.io
+NEO4J_USER=neo4j
+NEO4J_PASSWORD=your_neo4j_password
+
+# Google OAuth Client ID (optional — enables "Sign in with Google")
+# Get from: https://console.cloud.google.com → APIs & Services → Credentials
+GOOGLE_CLIENT_ID=your_client_id.apps.googleusercontent.com
 ```
 
-```bash
-# Bash / Linux / macOS
-export GOOGLE_API_KEY="your_gemini_api_key_here"
-```
+### Setting Up Google Sign-In (Optional)
 
-### Neo4j Credentials
+1. Go to [Google Cloud Console](https://console.cloud.google.com/) → **APIs & Services → Credentials**.
+2. Click **Create Credentials → OAuth Client ID**.
+3. Choose **Web application**.
+4. Under **Authorised JavaScript origins**, add:
+   - `http://127.0.0.1:5000`
+   - `http://localhost:5000`
+5. Copy the generated **Client ID** and paste it into your `.env` as `GOOGLE_CLIENT_ID`.
 
-Edit `graphRag_llm.py` (lines 27–29):
-
-```python
-NEO4J_URI      = "bolt://localhost:7687"
-NEO4J_USER     = "neo4j"
-NEO4J_PASSWORD = "your_neo4j_password"   # ← Change this
-```
+> If `GOOGLE_CLIENT_ID` is left blank, the app gracefully hides the Google Sign-In button and falls back to standard username/password login.
 
 ---
 
 ## How to Run
 
-### Option A — Full Hybrid Graph+Vector RAG (Recommended)
+### Option A — Web Portal (Recommended)
 
-Uses Neo4j for food retrieval + FAISS for Ayurvedic rules + Gemini for generation.
+Starts the full clinical web portal with login, patient profile form, and diet plan generation.
+
+```bash
+python app.py
+```
+
+Then open your browser at: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
+
+**Demo login credentials:**
+- Username: `dietitian`
+- Password: `password123`
+
+### Option B — Full Hybrid RAG (Command Line)
 
 ```bash
 # Step 1: Build the Ayurvedic rules vector index (first time only)
@@ -233,41 +284,31 @@ python -c "from graphRag_llm import build_rule_index; build_rule_index()"
 python graphRag_llm.py
 ```
 
-**Customise the user profile** in `graphRag_llm.py` (bottom of file):
-
-```python
-user_inputs_example = {
-    "age": 25,
-    "gender": "Female",
-    "weight": 58,
-    "height": 162,
-    "prakriti": "Vata",
-    "health": "Anaemia",
-    "activity": "moderate",       # sedentary / moderate / active
-    "sleep": "irregular",
-    "stress": "high",
-    "region": "North India",
-    "season": "Winter",
-    "preferences": "Vegetarian",
-    "nutrient_deficiency": "iron",
-}
-```
-
-### Option B — Pure Vector RAG with Ollama
+### Option C — Pure Vector RAG with Ollama
 
 ```bash
-# Build food vector DB (first time)
-python generate_food_vector.py
-
-# Run Vector RAG evaluation across all dosha/season combos
-python vector_rag.py
+python generate_food_vector.py   # Build vector DB (first time)
+python vector_rag.py             # Run evaluation
 ```
 
-### Option C — Original Ayurveda RAG (Excel-based)
+### Option D — Original Ayurveda RAG (Excel-based)
 
 ```bash
 python ayurveda_rag.py
 ```
+
+---
+
+## Web Portal Usage
+
+1. **Login** — Enter dietitian credentials or click **Sign in with Google**.
+2. **Enter Patient Details** — Fill in the patient's name, Prakriti, biometrics, lifestyle, dietary preferences, and health conditions. Click **Demo Data** to auto-fill an example.
+3. **Generate Diet Plan** — Click **Generate Diet Plan**. A progress overlay shows the pipeline stages (FAISS → Neo4j → Gemini).
+4. **View Results** — The output contains two sections:
+   - **Section 1 (Patient View):** Simple daily meal table addressed personally to the patient.
+   - **Section 2 (Dietitian View):** Full clinical rationale with Ayurvedic properties, nutrient breakdown, and deficiency correction notes.
+5. **Print / PDF** — Use the **Print / PDF** button to export the diet plan.
+6. **Logout** — Click the logout icon in the header to return to the login screen.
 
 ---
 
@@ -298,8 +339,6 @@ python vector_rag.py
 python vector_rag_bge.py
 # Output → vector_eval_results_bge.csv
 ```
-
-Results are saved as CSV files for comparison across embedding models and retrieval strategies.
 
 ---
 
